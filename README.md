@@ -58,15 +58,4 @@ In deze integratieoefeningen leer je de kracht van de **Timer, Counter, PWM (TCP
 
 ---
 
-## 🛠️ Hardware Overzicht: CY8CKIT-028-TFT
-Het gebruikte shield bevat de volgende componenten:
-| Component | Type |
-| :--- | :--- |
-| **TFT Display** | 2.4 inch (ST7789V) |
-| **Motion Sensor** | BMI-160 |
-| **Ambient Light** | TEMT6000X01 |
-| **Microphone** | PDM (SPK0838HT4HB) |
-| **Audio Codec** | AK4954A |
 
----
-*Gemaakt voor de PSoC 6 WiFi-BT Pioneer Kit in ModusToolbox.*
