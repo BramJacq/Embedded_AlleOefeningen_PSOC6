@@ -2080,3 +2080,403 @@ compilation terminated.
 ninja: build stopped: subcommand failed.
 make: *** [../mtb_shared/core-make/release-v3.7.0/make/core/ninja.mk:234: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf] Error 1
 "C:/Users/Bram/ModusToolbox/tools_3.6/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj" terminated with exit code 2. Build might be incomplete.
+22:34:29 **** Clean-only build of configuration Debug for project TCPWM_ex2_UltrasoneAfstandsMeting ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 clean_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+rm -rf C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build
+22:34:32 **** Build of configuration Debug for project TCPWM_ex2_UltrasoneAfstandsMeting ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/Bram/ModusToolbox/tools_3.6/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/bluetooth/cybsp_bt_config.o
+[2/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[3/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_capsense.o
+[4/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[5/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/bt-fw-mur-cyw4343w/COMPONENT_MURATA-1DX/btfw.o
+[6/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/system_psoc6_cm4.o
+[7/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_qspi_memslot.o
+[8/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_routing.o
+[9/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_01_cm0p_sleep.o
+[10/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_02_cm0p_sleep.o
+[11/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_04_cm0p_sleep.o
+[12/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_03_cm0p_sleep.o
+[13/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe1m_cm0p_sleep.o
+[14/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5200_cm0p_sleep.o
+[15/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5300_cm0p_sleep.o
+[16/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe512k_cm0p_sleep.o
+[17/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o
+[18/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe2m_cm0p_sleep.o
+[19/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe4m_cm0p_sleep.o
+[20/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_clocks.o
+[21/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5100_cm0p_sleep.o
+[22/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_system.o
+[23/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o
+[24/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_peripherals.o
+[25/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble.o
+[26/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_usb.o
+[27/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o
+[28/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga_sip.o
+[29/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble_usb.o
+[30/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/local/main.o
+[31/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_43_smt.o
+[32/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_128_tqfp.o
+[33/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_68_qfn_ble.o
+[34/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_ble.o
+[35/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga.o
+[36/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_68_qfn.o
+[37/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_80_wlcsp.o
+[38/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_49_wlcsp.o
+[39/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_124_bga.o
+[40/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_100_wlcsp.o
+[41/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_m_csp.o
+[42/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_68_qfn.o
+[43/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_100_tqfp.o
+[44/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_100_lqfp.o
+[45/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_64_lqfp.o
+[46/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_144_lqfp.o
+[47/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_tqfp.o
+[48/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_68_qfn.o
+[49/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_100_lqfp.o
+[50/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_64_tqfp.o
+[51/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_176_lqfp.o
+[52/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_80_lqfp.o
+[53/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_80_lqfp.o
+[54/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_144_lqfp.o
+[55/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_176_lqfp.o
+[56/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_144_lqfp.o
+[57/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_03.o
+[58/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_176_lqfp.o
+[59/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_100_lqfp.o
+[60/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_80_lqfp.o
+[61/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_64_lqfp.o
+[62/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_01.o
+[63/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_04.o
+[64/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe1m.o
+[65/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_02.o
+[66/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe2m.o
+[67/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_64_lqfp.o
+[68/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe4m.o
+[69/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_ctb.o
+[70/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_mic.o
+[71/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_analog_common.o
+[72/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crc.o
+[73/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_sar.o
+[74/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crypto_common.o
+[75/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp.o
+[76/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_lp.o
+[77/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ezi2c.o
+[78/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dmac.o
+[79/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dac.o
+[80/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_gpio.o
+[81/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_clock.o
+[82/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_audio_common.o
+[83/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma.o
+[84/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dw.o
+[85/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2s.o
+[86/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_interconnect.o
+[87/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_hwmgr.o
+[88/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_opamp.o
+[89/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_nvm.o
+[90/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_keyscan.o
+[91/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ipc.o
+[92/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pdmpcm.o
+[93/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_quaddec.o
+[94/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_irq_impl.o
+[95/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_qspi.o
+[96/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_lptimer.o
+[97/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2c.o
+[98/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_syspm.o
+[99/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_scb_common.o
+[100/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_sdhc.o
+[101/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tcpwm_common.o
+[102/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pwm.o
+[103/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_spi.o
+[104/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_rtc.o
+[105/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_timer.o
+[106/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_axidmac.o
+[107/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_system.o
+[108/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_trng.o
+[109/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tdm.o
+[110/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_adcmic.o
+[111/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/devices/COMPONENT_CAT1A/source/cy_device.o
+[112/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_canfd.o
+[113/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ble_clk.o
+[114/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils_impl.o
+[115/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cordic.o
+[116/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils.o
+[117/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_udb_sdio.o
+[118/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v2.o
+[119/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v1.o
+[120/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_wdt.o
+[121/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v2.o
+[122/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v1.o
+[123/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_uart.o
+[124/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_usb_dev.o
+[125/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v2.o
+[126/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v1.o
+[127/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v2.o
+[128/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto.o
+[129/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v1.o
+[130/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hkdf_v2.o
+[131/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ec25519.o
+[132/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ecdsa.o
+[133/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_domain_params.o
+[134/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v2.o
+[135/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw_v1.o
+[136/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v1.o
+[137/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw.o
+[138/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v1.o
+[139/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v2.o
+[140/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_key_gen.o
+[141/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v1.o
+[142/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v1.o
+[143/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v2.o
+[144/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v2.o
+[145/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes.o
+[146/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_trng.o
+[147/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_cmac.o
+[148/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_nist_p.o
+[149/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_eddsa.o
+[150/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes_ccm.o
+[151/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_ec25519.o
+[152/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_server.o
+[153/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_rsa.o
+[154/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_eddsa.o
+[155/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_key_gen.o
+[156/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecdsa.o
+[157/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hkdf.o
+[158/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_nist_p.o
+[159/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_vu.o
+[160/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_rsa.o
+[161/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hmac.o
+[162/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_sha256.o
+[163/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_csd.o
+[164/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_utils.o
+[165/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_vu.o
+[166/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_trng.o
+[167/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse_v3.o
+[168/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse.o
+[169/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_srom.o
+[170/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ethif.o
+[171/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_evtgen.o
+[172/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dmac.o
+[173/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctb.o
+[174/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ephy.o
+[175/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctdac.o
+[176/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_v2.o
+[177/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dma.o
+[178/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass.o
+[179/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_csg.o
+[180/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_ac.o
+[181/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_sar.o
+[182/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_gpio.o
+[183/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_i2s.o
+[184/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash.o
+[185/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_bt.o
+[186/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_sema.o
+[187/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd.o
+[188/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_pipe.o
+[189/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_drv.o
+[190/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_keyscan.o
+[191/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lin.o
+[192/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt_b.o
+[193/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mixer.o
+[194/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt.o
+[195/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ms_ctl.o
+[196/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd_ht.o
+[197/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lpcomp.o
+[198/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mpc.o
+[199/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm.o
+[200/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm_v2.o
+[201/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra_cfg.o
+[202/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra.o
+[203/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_profile.o
+[204/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ppc.o
+[205/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_common.o
+[206/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar2.o
+[207/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sd_host.o
+[208/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_rtc.o
+[209/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_ezi2c.o
+[210/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_prot.o
+[211/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar.o
+[212/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_seglcd.o
+[213/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_spi.o
+[214/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_hb_flash.o
+[215/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk_v2.o
+[216/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_i2c.o
+[217/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysfault.o
+[218/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smartio.o
+[219/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint.o
+[220/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_uart.o
+[221/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint_v2.o
+[222/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_btss.o
+[223/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysanalog.o
+[224/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_memslot.o
+[225/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif.o
+[226/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_sfdp.o
+[227/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_pdcm.o
+[228/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_ppu.o
+[229/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v3.o
+[230/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v4.o
+[231/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v2.o
+[232/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syslib.o
+[233/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk.o
+[234/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick.o
+[235/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_counter.o
+[236/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick_v2.o
+[237/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tdm.o
+[238/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_motif.o
+[239/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm.o
+[240/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_quaddec.o
+[241/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_pwm.o
+[242/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_shiftreg.o
+[243/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_trigmux.o
+[244/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/ppu_v1.o
+[245/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_rx.o
+[246/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt_b.o
+[247/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd.o
+[248/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/utils/TOOLCHAIN_GCC_ARM/mtb_stdlib_stubs.o
+[249/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv.o
+[250/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io.o
+[251/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt.o
+[252/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_tx.o
+[253/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io_dma.o
+[254/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/udb-sdio-whd/COMPONENT_UDB_SDIO_P2/SDIO_HOST_cfg.o
+[255/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/retarget-io/source/cy_retarget_io.o
+[256/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/Debug/libraries_shared/udb-sdio-whd/SDIO_HOST.o
+[257/257] Linking, creating elf file build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf has a LOAD segment with RWX permissions
+
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-objcopy -O ihex C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C6247BZI-D54 GCC_ARM
+
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  6580       | 
+  | .text                |  0x10002000   |  42168      | 
+  | .ARM.exidx           |  0x1000c4b8   |  8          | 
+  | .copy.table          |  0x1000c4c0   |  24         | 
+  | .zero.table          |  0x1000c4d8   |  8          | 
+  | .data                |  0x0800228c   |  1524       | 
+  | .cy_sharedmem        |  0x08002880   |  12         | 
+  | .noinit              |  0x08002890   |  233        | 
+  | .bss                 |  0x0800297c   |  1692       | 
+  | .heap                |  0x08003018   |  276456     | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          1048576    
+  Total Internal Flash (Utilized)           51944      
+
+22:35:32 **** Clean-only build of configuration Debug for project TCPWM_ex1_RotatiesnelheidMotor ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 clean_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+rm -rf C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build
+22:35:34 **** Build of configuration Debug for project TCPWM_ex1_RotatiesnelheidMotor ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/Bram/ModusToolbox/tools_3.6/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[2/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/bluetooth/cybsp_bt_config.o
+[3/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_capsense.o
+[4/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/system_psoc6_cm4.o
+[5/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[6/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_qspi_memslot.o
+[7/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/bt-fw-mur-cyw4343w/COMPONENT_MURATA-1DX/btfw.o
+[8/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_04_cm0p_sleep.o
+[9/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_01_cm0p_sleep.o
+[10/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_02_cm0p_sleep.o
+[11/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_routing.o
+[12/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_03_cm0p_sleep.o
+[13/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5100_cm0p_sleep.o
+[14/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_clocks.o
+[15/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe4m_cm0p_sleep.o
+[16/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5200_cm0p_sleep.o
+[17/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe2m_cm0p_sleep.o
+[18/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe512k_cm0p_sleep.o
+[19/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o
+[20/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe1m_cm0p_sleep.o
+[21/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_peripherals.o
+[22/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5300_cm0p_sleep.o
+[23/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_system.o
+[24/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o
+[25/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o
+[26/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o
+FAILED: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o 
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-gcc.exe -c -mcpu=cortex-m4 --specs=nano.specs -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall -pipe -MMD -MP -MF C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o.d -MT C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o @C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o.rsp -o C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o -c C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c: In function 'main':
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:26:27: error: 'counter_HW' undeclared (first use in this function); did you mean 'counter'?
+   26 |     Cy_TCPWM_Counter_Init(counter_HW, counter_NUM, &counter_config);
+      |                           ^~~~~~~~~~
+      |                           counter
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:26:27: note: each undeclared identifier is reported only once for each function it appears in
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:26:39: error: 'counter_NUM' undeclared (first use in this function); did you mean 'counter'?
+   26 |     Cy_TCPWM_Counter_Init(counter_HW, counter_NUM, &counter_config);
+      |                                       ^~~~~~~~~~~
+      |                                       counter
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:26:53: error: 'counter_config' undeclared (first use in this function)
+   26 |     Cy_TCPWM_Counter_Init(counter_HW, counter_NUM, &counter_config);
+      |                                                     ^~~~~~~~~~~~~~
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:30:27: error: 'timer_HW' undeclared (first use in this function); did you mean 'timer_t'?
+   30 |     Cy_TCPWM_Counter_Init(timer_HW, timer_NUM, &timer_config);
+      |                           ^~~~~~~~
+      |                           timer_t
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:30:37: error: 'timer_NUM' undeclared (first use in this function); did you mean 'timer_t'?
+   30 |     Cy_TCPWM_Counter_Init(timer_HW, timer_NUM, &timer_config);
+      |                                     ^~~~~~~~~
+      |                                     timer_t
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:30:49: error: 'timer_config' undeclared (first use in this function)
+   30 |     Cy_TCPWM_Counter_Init(timer_HW, timer_NUM, &timer_config);
+      |                                                 ^~~~~~~~~~~~
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:16:15: warning: unused variable 'input' [-Wunused-variable]
+   16 |         _Bool input;
+      |               ^~~~~
+[27/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble.o
+[28/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_usb.o
+[29/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_43_smt.o
+[30/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_124_bga.o
+[31/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga.o
+[32/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_100_wlcsp.o
+[33/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_68_qfn_ble.o
+[34/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble_usb.o
+[35/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_80_wlcsp.o
+[36/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga_sip.o
+[37/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_ble.o
+[38/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_128_tqfp.o
+[39/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_68_qfn.o
+[40/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_49_wlcsp.o
+[41/257] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_100_tqfp.o
+ninja: build stopped: subcommand failed.
+make: *** [../mtb_shared/core-make/release-v3.7.0/make/core/ninja.mk:234: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf] Error 1
+"C:/Users/Bram/ModusToolbox/tools_3.6/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj" terminated with exit code 2. Build might be incomplete.

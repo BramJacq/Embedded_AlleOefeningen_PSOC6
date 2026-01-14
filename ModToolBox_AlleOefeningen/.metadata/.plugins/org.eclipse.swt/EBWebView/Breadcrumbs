@@ -28,3 +28,21 @@
 0:25:39 Tab4 StartNav19 #typed
 0:25:39 Tab4 FinishNav19
 0:25:39 Tab4 PageLoad
+0:49:24 Tab3 StartNav20 #typed
+0:49:24 Tab3 FinishNav20
+0:49:24 Tab3 PageLoad
+0:49:25 Tab3 StartNav21 #typed
+0:49:25 Tab3 FinishNav21
+0:49:25 Tab3 PageLoad
+0:50:27 Microsoft.NewBrowser_Popup
+0:50:27 Microsoft.BrowserList.AddBrowser
+0:50:27 Browser5 Insert active Tab5 at 0
+0:50:27 Tab5 StartNav22 #auto_toplevel
+0:50:27 Tab5 StartNav23 #typed
+0:50:27 Tab5 FinishNav22
+0:50:27 Tab5 PageLoad
+0:50:27 Tab5 FinishNav23
+0:50:27 Tab5 PageLoad
+0:50:58 Tab3 StartNav24 #typed
+0:50:58 Tab3 FinishNav24
+0:50:58 Tab3 PageLoad
