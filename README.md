@@ -1,178 +1,72 @@
-# Embedded_PSOC6_AllExercises
+# Embedded PSoC 6 - Alle Oefeningen
 
-## TFT Display – Oefeningen
-
-### Gebruik maken van het TFT display
+Dit repository bevat een verzameling oefeningen voor de **PSoC 6 WiFi-BT Pioneer Kit**, gericht op het aansturen van een TFT-display en het gebruik van de TCPWM-modules (Timers, Counters, PWM).
 
 ---
 
-### Oefening 1 – Basis initialisatie
+## 📺 TFT Display Oefeningen
 
-**Doel**  
-Het TFT-scherm correct initialiseren en een eenvoudige tekst weergeven met de `GUI_DispString()` API.
+Deze reeks oefeningen focust op het initialiseren en aansturen van het **CY8CKIT-028-TFT** shield.
 
----
+### 1. Basis Initialisatie
+**Doel:** Het scherm correct opstarten en tekst weergeven met de `GUI_DispString()` API.
+* **Hardware:** CY8CKIT-028-TFT (ST7789V controller).
+* **Taak:** Initialiseer de bibliotheek en toon "Hello World" gevolgd door een tweede regel tekst.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/TFT_ex1_Basic/main.c)
 
-### Opdracht
+### 2. Gebruik van het Shield (Optimalisatie)
+**Doel:** De code vereenvoudigen door gebruik te maken van de specifieke shield-library.
+* **Focus:** Vervang handmatige pin-declaraties door `cy8ckit_028_tft_init(NULL, NULL, NULL, NULL)`.
+* **Taak:** Reduceer de code tot circa 17 regels en experimenteer met `GUI_DispStringAt()`.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/TFT_ex2_optimalisatie/main.c)
 
-1. Maak een **Empty App** aan in ModusToolbox.
-2. Open de **Library Manager** en voeg de **CY8CKIT-028-TFT** toe.  
-   Vergeet niet om de libraries te **updaten**.
-3. Open de documentatie van de TFT-controller en volg de **Quick Start Guide**.
-4. Zorg ervoor dat **"Hello world"** op het scherm wordt weergegeven.
-5. Voeg vervolgens een **tweede tekstregel** toe op het display.
+### 3. emWin API's & Styling
+**Doel:** Werken met fonts, kleuren en tekstpositionering.
+* **Focus:** Gebruik maken van de SEGGER emWin User Guide (Hoofdstuk 5).
+* **Taak:** Toon "Hello world" op specifieke coördinaten en voeg gekleurde tekst toe met font `16_ASCII`.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/TFT_ex3_APIs/main.c)
 
----
+### 4. Dynamische Tekst (Aftellen)
+**Doel:** Real-time updates van het display zonder het volledige scherm te verversen.
+* **Taak:** Maak een timer die aftelt van 9 naar 0. Zorg dat enkel het cijfer wordt overschreven voor maximale efficiëntie.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/TFT_ex4_dynamisch/main.c)
 
-### Opmerking
-
-De **Library Manager** installeert automatisch alle benodigde libraries voor de componenten op het **CY8CKIT-028-TFT Shield**.
-
-Dit shield bevat de volgende hardware:
-
-- 2.4 inch TFT Display (**ST7789V**)
-- Motion Sensor (**BMI-160**)
-- Ambient Light Sensor (**TEMT6000X01**)
-- PDM Microphone (**SPK0838HT4HB**)
-- Audio Codec (**AK4954A**)
-
----
-
-### Benodigde libraries
-
-- EmWin  
-- CY8CKIT-028-TFT
+> [!IMPORTANT]
+> **Configuratie voor TFT Oefeningen:**
+> Voeg voor alle bovenstaande oefeningen de volgende regel toe aan je **Makefile**:
+> `COMPONENTS+=EMWIN_NOSNTS`
 
 ---
 
-### Makefile configuratie
+## ⚙️ TCPWM Oefeningen
 
-Voeg de volgende regel toe aan je `Makefile`:
+In deze integratieoefeningen leer je de kracht van de **Timer, Counter, PWM (TCPWM)** module kennen.
 
-```makefile
-COMPONENTS+=EMWIN_NOSNTS
-```
+### 1. Rotatiesnelheid meten (Counter)
+**Doel:** Meten van externe pulsen (bijv. van een encoder) om RPM te berekenen.
+* **Hardware:** Gebruik een functiegenerator of sensor op pin `P10_0`.
+* **Concept:** Gebruik één TCPWM als Counter voor pulsen en één als Timer voor de tijdsbasis.
+* **Berekening:** $RPM = \frac{PulsenPerSeconde}{PulsenPerOmwenteling} \times 60$
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c)
 
----
-
-## Oefening 2 – Gebruik van het shield (optimalisatie)
-
-**Doel**  
-tonen dat gebruik van de cy8ckit_028_tft-library de code vereenvoudigt.
-
----
-
-We maakten gebruik van de mtb_st7789v librarie waardoor we de pinnen apart moeten declareren en initialiseren.  
-Als we echter gaan werken met de cy8ckit_028_tft librarie (het shieldje) dan kan de code er veel compacter uitzien.
+### 2. Ultrasone Afstandsmeting (Capture/PWM)
+**Doel:** Afstand bepalen met de **HC-SR04** sensor via PDL (Peripheral Driver Library).
+* **Concept:** * **TCPWM 1 (PWM):** Genereert de 10µs triggerpuls op `P9_0`.
+    * **TCPWM 2 (Capture):** Meet de tijdsduur van het ECHO-signaal op `P9_1`.
+* **Berekening:** $Afstand (cm) = \frac{Tijd (\mu s) \times 343}{2 \times 10000}$
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/TCPWM_ex2_UltrasoneAfstandsMeting/main.c)
 
 ---
 
-### Opdracht
-
-- Include nu enkel `#include "cy8ckit_028_tft.h"` en `#include "GUI.h"`, naast de gebruikelijke initialisaties voor de PSoC6.
-- We moeten geen `const mtb_st7789v_pins_t tft_pins` declareren.
-- Gebruik de kortere initialisatieversie:  
-  `cy8ckit_028_tft_init (NULL, NULL, NULL, NULL);`
-- Je code is nu vereenvoudigd tot slechts **17 regels**.
-- Maak eventueel eens gebruik om de tekst op een andere positie te plaatsen met `GUI_DispStringAt()`.
-
----
-
-### Benodigde libraries
-
-- EmWin  
-- CY8CKIT-028-TFT
+## 🛠️ Hardware Overzicht: CY8CKIT-028-TFT
+Het gebruikte shield bevat de volgende componenten:
+| Component | Type |
+| :--- | :--- |
+| **TFT Display** | 2.4 inch (ST7789V) |
+| **Motion Sensor** | BMI-160 |
+| **Ambient Light** | TEMT6000X01 |
+| **Microphone** | PDM (SPK0838HT4HB) |
+| **Audio Codec** | AK4954A |
 
 ---
-
-### Makefile configuratie
-
-Voeg de volgende regel toe aan je `Makefile`:
-
-```makefile
-COMPONENTS+=EMWIN_NOSNTS
-```
-
----
-
-## Oefening 3 – emWin API's leren gebruiken
-
-**Doel**  
-Werken met fonts en kleuren.
-
----
-
-Open de documentatie van de **SEGGER emWin graphics library** en open de **emWin User Guide**.  
-Hierin kan je alle API Calls terugvinden die nodig zijn om het scherm aan te sturen.
-
-Voor de volgende oefening kan je best de volgende API's uit **hoofdstuk 5** eens doornemen:
-
-- Text API > Displaying text  
-- Text API > Position  
-- Font API > Common font-related functions  
-- Color API > Basic functions  
-
----
-
-### Opdracht
-
-- Toon met de standaard font de tekst **"Hello world"** op positie **x = 40** en **y = 100**.
-- Toon op de volgende regel de tekst **"Opnieuw welkom"** met de volgende eigenschappen:
-  - Font: **16_ASCII**
-  - Background color: **Red**
-  - Font color: **Black**
-
----
-
-### Benodigde libraries
-
-- EmWin  
-- CY8CKIT-028-TFT
-
----
-
-### Makefile configuratie
-
-Voeg de volgende regel toe aan je `Makefile`:
-
-```makefile
-COMPONENTS+=EMWIN_NOSNTS
-```
-
----
-
-## Oefening 4 – Dynamische tekst (aftellen)
-
-**Doel**  
-werken met tekstupdates en timing.
-
----
-
-Toon in het midden van het display de tekst **"De bom gaat af in 9"** en laat dit getal aftellen tot **0**.  
-Probeer enkel de character van de timer te veranderen en niet de ganse tekstregel.
-
----
-
-### Opdracht
-
-- Toon **"De bom gaat af in 9"**.
-- Laat het getal aftellen tot **0**, waarbij enkel de cijferpositie wordt overschreven (iedere **1 s**).
-- Laat na **0** het aftellen opnieuw starten.
----
-
-### Benodigde libraries
-
-- EmWin  
-- CY8CKIT-028-TFT
-
----
-
-### Makefile configuratie
-
-Voeg de volgende regel toe aan je `Makefile`:
-
-```makefile
-COMPONENTS+=EMWIN_NOSNTS
-```
-
----
+*Gemaakt voor de PSoC 6 WiFi-BT Pioneer Kit in ModusToolbox.*
