@@ -1,0 +1,30 @@
+#include "cyhal.h"
+#include "cybsp.h"
+#include "cy8ckit_028_tft.h"
+#include "GUI.h"
+
+int main(void)
+{
+	
+	cybsp_init();
+
+    __enable_irq();
+
+    /* Initialize the TFT shield */
+    cy8ckit_028_tft_init(NULL, NULL, NULL, NULL);
+
+    /* Initialize emWin GUI */
+    GUI_Init();
+    GUI_Clear();
+    
+
+    /* Display text */
+    GUI_DispStringAt("Zeg HALLO", 10, 20);
+    GUI_DispStringAt("Tegen U MAMA!", 10, 30);
+
+
+    for (;;)
+    {
+
+    }
+}

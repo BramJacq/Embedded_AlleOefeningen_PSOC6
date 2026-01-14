@@ -1,0 +1,48 @@
+15:56:04 **** Incremental Build of configuration Debug for project TFT_Display ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/Bram/ModusToolbox/tools_3.6/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/ModToolBox_AlleOefeningen/TFT_Display'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/2] Building object file C:/ModToolBox_AlleOefeningen/TFT_Display/build/Debug/local/main.o
+[2/2] Linking, creating elf file build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf has a LOAD segment with RWX permissions
+
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-objcopy -O ihex C:/ModToolBox_AlleOefeningen/TFT_Display/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf C:/ModToolBox_AlleOefeningen/TFT_Display/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C6247BZI-D54 GCC_ARM
+
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  6580       | 
+  | .text                |  0x10002000   |  77488      | 
+  | .ARM.exidx           |  0x10014eb0   |  8          | 
+  | .copy.table          |  0x10014eb8   |  24         | 
+  | .zero.table          |  0x10014ed0   |  8          | 
+  | .data                |  0x0800228c   |  1196       | 
+  | .cy_sharedmem        |  0x08002738   |  12         | 
+  | .noinit              |  0x08002748   |  233        | 
+  | .bss                 |  0x08002834   |  34608      | 
+  | .heap                |  0x0800af68   |  243864     | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          1048576    
+  Total Internal Flash (Utilized)           86936      
+
+
+15:56:06 Build Finished. 0 errors, 1 warnings. (took 2s.381ms)
+

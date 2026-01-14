@@ -1,0 +1,311 @@
+15:44:18 **** Build of configuration Debug for project TFT_ex1_Basic ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/Bram/ModusToolbox/tools_3.6/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[2/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/bluetooth/cybsp_bt_config.o
+[3/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_capsense.o
+[4/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[5/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/system_psoc6_cm4.o
+[6/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_routing.o
+[7/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_peripherals.o
+[8/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_02_cm0p_sleep.o
+[9/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_qspi_memslot.o
+[10/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_04_cm0p_sleep.o
+[11/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe1m_cm0p_sleep.o
+[12/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe2m_cm0p_sleep.o
+[13/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/bt-fw-mur-cyw4343w/COMPONENT_MURATA-1DX/btfw.o
+[14/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_01_cm0p_sleep.o
+[15/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/audio-codec-ak4954a/mtb_ak4954a.o
+[16/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe4m_cm0p_sleep.o
+[17/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_clocks.o
+[18/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe512k_cm0p_sleep.o
+[19/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_03_cm0p_sleep.o
+[20/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5200_cm0p_sleep.o
+[21/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o
+[22/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/display-tft-st7789v/configs/emwin/GUIConf.o
+[23/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5300_cm0p_sleep.o
+[24/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o
+[25/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/CY8CKIT-028-TFT/cy8ckit_028_tft.o
+[26/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/BMI160_driver/bmi160.o
+[27/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble_usb.o
+[28/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5100_cm0p_sleep.o
+[29/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o
+[30/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/local/main.o
+[31/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_system.o
+[32/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/display-tft-st7789v/mtb_st7789v.o
+[33/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble.o
+[34/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/display-tft-st7789v/configs/emwin/LCDConf.o
+[35/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_ble.o
+[36/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_usb.o
+[37/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/display-tft-st7789v/configs/emwin/GUI_X.o
+[38/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_68_qfn.o
+[39/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_68_qfn_ble.o
+[40/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_100_tqfp.o
+[41/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga.o
+[42/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_128_tqfp.o
+[43/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_43_smt.o
+[44/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_100_wlcsp.o
+[45/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_68_qfn.o
+[46/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_64_tqfp.o
+[47/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_124_bga.o
+[48/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_m_csp.o
+[49/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_144_lqfp.o
+[50/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga_sip.o
+[51/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_68_qfn.o
+[52/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_80_lqfp.o
+[53/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_49_wlcsp.o
+[54/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_tqfp.o
+[55/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_80_wlcsp.o
+[56/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_100_lqfp.o
+[57/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_144_lqfp.o
+[58/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_100_lqfp.o
+[59/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_176_lqfp.o
+[60/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_100_lqfp.o
+[61/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_64_lqfp.o
+[62/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_80_lqfp.o
+[63/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_144_lqfp.o
+[64/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_64_lqfp.o
+[65/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_176_lqfp.o
+[66/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_176_lqfp.o
+[67/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_02.o
+[68/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_80_lqfp.o
+[69/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_64_lqfp.o
+[70/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_01.o
+[71/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_03.o
+[72/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_04.o
+[73/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe1m.o
+[74/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe4m.o
+[75/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_mic.o
+[76/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crypto_common.o
+[77/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma.o
+[78/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_ctb.o
+[79/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_analog_common.o
+[80/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp.o
+[81/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe2m.o
+[82/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dac.o
+[83/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_clock.o
+[84/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_sar.o
+[85/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crc.o
+[86/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_lp.o
+[87/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_audio_common.o
+[88/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dmac.o
+[89/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_hwmgr.o
+[90/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_irq_impl.o
+[91/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ezi2c.o
+[92/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_interconnect.o
+[93/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2c.o
+[94/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dw.o
+[95/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ipc.o
+[96/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_keyscan.o
+[97/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2s.o
+[98/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pdmpcm.o
+[99/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_gpio.o
+[100/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_nvm.o
+[101/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_opamp.o
+[102/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_lptimer.o
+[103/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_syspm.o
+[104/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_system.o
+[105/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_quaddec.o
+[106/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_rtc.o
+[107/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pwm.o
+[108/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_scb_common.o
+[109/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_qspi.o
+[110/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_axidmac.o
+[111/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tdm.o
+[112/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils.o
+[113/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_trng.o
+[114/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_adcmic.o
+[115/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_wdt.o
+[116/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_spi.o
+[117/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_uart.o
+[118/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_sdhc.o
+[119/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ble_clk.o
+[120/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_canfd.o
+[121/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v1.o
+[122/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/devices/COMPONENT_CAT1A/source/cy_device.o
+[123/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v1.o
+[124/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v1.o
+[125/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v2.o
+[126/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_timer.o
+[127/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_udb_sdio.o
+[128/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tcpwm_common.o
+[129/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v2.o
+[130/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v1.o
+[131/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v2.o
+[132/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto.o
+[133/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_domain_params.o
+[134/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ecdsa.o
+[135/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cordic.o
+[136/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_key_gen.o
+[137/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v2.o
+[138/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hkdf_v2.o
+[139/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v2.o
+[140/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v1.o
+[141/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw.o
+[142/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_eddsa.o
+[143/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw_v1.o
+[144/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v2.o
+[145/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v1.o
+[146/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils_impl.o
+[147/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_cmac.o
+[148/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ec25519.o
+[149/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v1.o
+[150/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_nist_p.o
+[151/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v2.o
+[152/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_usb_dev.o
+[153/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v2.o
+[154/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_vu.o
+[155/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_eddsa.o
+[156/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v1.o
+[157/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_ec25519.o
+[158/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_server.o
+[159/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes.o
+[160/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes_ccm.o
+[161/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecdsa.o
+[162/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hmac.o
+[163/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_rsa.o
+[164/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_trng.o
+[165/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_rsa.o
+[166/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_sha256.o
+[167/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hkdf.o
+[168/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_key_gen.o
+[169/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_nist_p.o
+[170/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_trng.o
+[171/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_vu.o
+[172/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_csd.o
+[173/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse.o
+[174/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dma.o
+[175/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dmac.o
+[176/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse_v3.o
+[177/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ethif.o
+[178/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_utils.o
+[179/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ephy.o
+[180/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_evtgen.o
+[181/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctb.o
+[182/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass.o
+[183/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_v2.o
+[184/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_csg.o
+[185/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctdac.o
+[186/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_bt.o
+[187/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_gpio.o
+[188/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_ac.o
+[189/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_drv.o
+[190/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_sar.o
+[191/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_srom.o
+[192/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_sema.o
+[193/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_keyscan.o
+[194/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lin.o
+[195/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd_ht.o
+[196/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lpcomp.o
+[197/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt_b.o
+[198/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_pipe.o
+[199/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt.o
+[200/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_i2s.o
+[201/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd.o
+[202/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mixer.o
+[203/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm_v2.o
+[204/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash.o
+[205/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ms_ctl.o
+[206/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm.o
+[207/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mpc.o
+[208/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_common.o
+[209/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra.o
+[210/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_profile.o
+[211/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_ezi2c.o
+[212/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra_cfg.o
+[213/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ppc.o
+[214/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar2.o
+[215/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_rtc.o
+[216/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar.o
+[217/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sd_host.o
+[218/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_prot.o
+[219/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smartio.o
+[220/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_hb_flash.o
+[221/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysfault.o
+[222/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_seglcd.o
+[223/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk_v2.o
+[224/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_uart.o
+[225/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif.o
+[226/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint.o
+[227/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysanalog.o
+[228/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_memslot.o
+[229/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_i2c.o
+[230/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_btss.o
+[231/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_spi.o
+[232/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_pdcm.o
+[233/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint_v2.o
+[234/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_ppu.o
+[235/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v2.o
+[236/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syslib.o
+[237/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v4.o
+[238/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v3.o
+[239/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_sfdp.o
+[240/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm.o
+[241/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_counter.o
+[242/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick.o
+[243/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_motif.o
+[244/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick_v2.o
+[245/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_quaddec.o
+[246/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tdm.o
+[247/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_pwm.o
+[248/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_shiftreg.o
+[249/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_trigmux.o
+[250/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk.o
+[251/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt.o
+[252/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_rx.o
+[253/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv.o
+[254/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt_b.o
+[255/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd.o
+[256/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/utils/TOOLCHAIN_GCC_ARM/mtb_stdlib_stubs.o
+[257/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/ppu_v1.o
+[258/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_tx.o
+[259/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io_dma.o
+[260/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io.o
+[261/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/udb-sdio-whd/COMPONENT_UDB_SDIO_P2/SDIO_HOST_cfg.o
+[262/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/sensor-light/mtb_light_sensor.o
+[263/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/sensor-motion-bmi160/mtb_bmi160.o
+[264/265] Building object file C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/Debug/libraries_shared/udb-sdio-whd/SDIO_HOST.o
+[265/265] Linking, creating elf file build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf has a LOAD segment with RWX permissions
+
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-objcopy -O ihex C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf C:/ModToolBox_AlleOefeningen/TFT_ex1_Basic/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C6247BZI-D54 GCC_ARM
+
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  6580       | 
+  | .text                |  0x10002000   |  69724      | 
+  | .ARM.exidx           |  0x1001305c   |  8          | 
+  | .copy.table          |  0x10013064   |  24         | 
+  | .zero.table          |  0x1001307c   |  8          | 
+  | .data                |  0x0800228c   |  1196       | 
+  | .cy_sharedmem        |  0x08002738   |  12         | 
+  | .noinit              |  0x08002748   |  233        | 
+  | .bss                 |  0x08002834   |  34608      | 
+  | .heap                |  0x0800af68   |  243864     | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          1048576    
+  Total Internal Flash (Utilized)           79172      
+
+
+15:44:34 Build Finished. 0 errors, 1 warnings. (took 15s.481ms)
+
