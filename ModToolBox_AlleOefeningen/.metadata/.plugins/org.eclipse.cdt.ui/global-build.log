@@ -2019,3 +2019,64 @@ ninja: no work to do.
   Total Internal Flash (Available)          1048576    
   Total Internal Flash (Utilized)           105544     
 
+22:06:37 **** Clean-only build of configuration Debug for project TCPWM_ex1_RotatiesnelheidMotor ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 clean_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+rm -rf C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build
+22:06:39 **** Build of configuration Debug for project TCPWM_ex1_RotatiesnelheidMotor ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/Bram/ModusToolbox/tools_3.6/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_capsense.o
+[2/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_routing.o
+[3/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[4/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[5/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/bluetooth/cybsp_bt_config.o
+[6/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_qspi_memslot.o
+[7/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/bt-fw-mur-cyw4343w/COMPONENT_MURATA-1DX/btfw.o
+[8/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/system_psoc6_cm4.o
+[9/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_01_cm0p_sleep.o
+[10/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_clocks.o
+[11/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_02_cm0p_sleep.o
+[12/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o
+[13/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_03_cm0p_sleep.o
+[14/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_system.o
+[15/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o
+FAILED: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o 
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-gcc.exe -c -mcpu=cortex-m4 --specs=nano.specs -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall -pipe -MMD -MP -MF C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o.d -MT C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o @C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o.rsp -o C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/local/main.o -c C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/main.c:4:10: fatal error: cy_retarget_io.h: No such file or directory
+    4 | #include "cy_retarget_io.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+
+[16/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe512k_cm0p_sleep.o
+[17/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_04_cm0p_sleep.o
+[18/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5200_cm0p_sleep.o
+[19/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe4m_cm0p_sleep.o
+[20/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe1m_cm0p_sleep.o
+[21/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5100_cm0p_sleep.o
+[22/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_peripherals.o
+[23/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe2m_cm0p_sleep.o
+[24/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o
+[25/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5300_cm0p_sleep.o
+[26/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o
+[27/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble.o
+[28/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble_usb.o
+[29/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_usb.o
+[30/256] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_ble.o
+ninja: build stopped: subcommand failed.
+make: *** [../mtb_shared/core-make/release-v3.7.0/make/core/ninja.mk:234: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/TCPWM_ex1_RotatiesnelheidMotor/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf] Error 1
+"C:/Users/Bram/ModusToolbox/tools_3.6/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj" terminated with exit code 2. Build might be incomplete.
