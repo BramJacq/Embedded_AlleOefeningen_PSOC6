@@ -1,7 +1,7 @@
 Loading the ModusToolbox Technology Packs and Early Access Packs
-Finished loading the ModusToolbox Technology Packs and Early Access Packs (2 ms)
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (5 ms)
 Loading the tools information
-Finished loading the tools information (49 ms)
+Finished loading the tools information (64 ms)
 From ModusToolbox Tools version 3.6.0.0 installed at C:/Users/Bram/ModusToolbox/tools_3.6, using
  airoc-tools version 5.0.1.207
  bsp-assistant version 1.50.0.2994
@@ -121,7 +121,7 @@ Finished download of file 'https://github.com/avnet-iotconnect/avnet-iotc-mtb-mw
 Finished download of file 'https://github.com/CyberonEBU/cyberon-mtb-mw-manifest/raw/main/cyberon-mtb-mw-manifest-fv2.xml'
 Finished download of file 'https://github.com/golioth/mtb-golioth-mw-manifest/raw/main/mtb-golioth-mw-manifest-fv2.xml'
 Finished download of file 'https://github.com/rtlabs-com/mtb-rtlabs-manifest/raw/main/rtlabs-mtb-mw-manifest-fw2-rtlabs.xml'
-Finished loading the manifest data (1907 ms)
+Finished loading the manifest data (2503 ms)
 No SDK-based filtering is applied to the manifest database contents.
 0 error(s), 0 warning(s)
 
@@ -136,10 +136,10 @@ Press "Create" to create the selected application(s).
 Collecting application data...
 
 Info: The following entered on the command line will create the exact same project as that created with the GUI tool:
-C:/Users/Bram/ModusToolbox/tools_3.6/project-creator/project-creator-cli.exe --board-id CY8CKIT-062-WIFI-BT --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT --board-commit latest-v5.X --app-id mtb-example-empty-app --app-uri https://github.com/Infineon/mtb-example-empty-app --app-commit latest-v4.X --target-dir C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen --user-app-name RTOS_ex2_priority --use-modus-shell
-Starting application creation for 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority'.
+C:/Users/Bram/ModusToolbox/tools_3.6/project-creator/project-creator-cli.exe --board-id CY8CKIT-062-WIFI-BT --board-uri https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT --board-commit latest-v5.X --app-id mtb-example-empty-app --app-uri https://github.com/Infineon/mtb-example-empty-app --app-commit latest-v4.X --target-dir C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen --user-app-name RTOS_ex5_Queue --use-modus-shell
+Starting application creation for 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue'.
 Acquiring the application source 'https://github.com/Infineon/mtb-example-empty-app'.
-Git#0>Cloning into 'RTOS_ex2_priority'...
+Git#0>Cloning into 'RTOS_ex5_Queue'...
 Git#0>remote: Enumerating objects: 44, done.        
 Git#0>remote: Counting objects:   3% (1/29)        
 Git#0>remote: Counting objects:   6% (2/29)        
@@ -241,7 +241,7 @@ Git#0>Receiving objects:  93% (41/44)
 Git#0>Receiving objects:  95% (42/44)
 Git#0>Receiving objects:  97% (43/44)
 Git#0>Receiving objects: 100% (44/44)
-Git#0>Receiving objects: 100% (44/44), 6.48 KiB | 1.62 MiB/s, done.
+Git#0>Receiving objects: 100% (44/44), 6.48 KiB | 3.24 MiB/s, done.
 Git#0>Resolving deltas:   0% (0/11)
 Git#0>Resolving deltas:   9% (1/11)
 Git#0>Resolving deltas:  18% (2/11)
@@ -259,28 +259,28 @@ Git#1>HEAD is now at 36b22d4 Upload mtb-example-empty-app [2792]
 Acquired application source successfully.
 Loading the application.
 Loaded the application successfully.
-Processing project 'RTOS_ex2_priority'.
+Processing project 'RTOS_ex5_Queue'.
 Starting to commit changes to the filesystem and project 'mtb-example-empty-app'.
-Writing mtb file for asset 'CY8CKIT-062-WIFI-BT' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/deps'.
-Writing mtb file for asset 'cat1cm0p' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'core-lib' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'core-make' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'mtb-hal-cat1' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'mtb-pdl-cat1' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'recipe-make-cat1a' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'udb-sdio-whd' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'bt-fw-mur-cyw4343w' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'cmsis' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Writing mtb file for asset 'device-db' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs'.
-Git#2>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs clone --progress --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT TARGET_CY8CKIT-062-WIFI-BT
+Writing mtb file for asset 'CY8CKIT-062-WIFI-BT' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/deps'.
+Writing mtb file for asset 'cat1cm0p' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'core-lib' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'core-make' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'mtb-hal-cat1' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'mtb-pdl-cat1' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'recipe-make-cat1a' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'udb-sdio-whd' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'bt-fw-mur-cyw4343w' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'cmsis' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Writing mtb file for asset 'device-db' to the folder 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs'.
+Git#2>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs clone --progress --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT TARGET_CY8CKIT-062-WIFI-BT
 Git#3>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cat1cm0p/release-v1.9.0 -c advice.detachedHead=false checkout --progress release-v1.9.0
 Git#4>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/core-lib/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
 Git#5>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/core-make/release-v3.7.0 -c advice.detachedHead=false checkout --progress release-v3.7.0
 Git#2>Cloning into 'TARGET_CY8CKIT-062-WIFI-BT'...
 Git#4>HEAD is now at 7c85992 Upload core-lib [4092]
+Git#3>HEAD is now at ea4c761 Upload cat1cm0p 1.9.0.558 [3848]
 Git#4>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/core-lib/release-v1.6.0 -c advice.detachedHead=false checkout --progress release-v1.6.0
 Git#6>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/mtb-hal-cat1/release-v2.7.4 -c advice.detachedHead=false checkout --progress release-v2.7.4
-Git#3>HEAD is now at ea4c761 Upload cat1cm0p 1.9.0.558 [3848]
 Git#3>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cat1cm0p/release-v1.9.0 -c advice.detachedHead=false checkout --progress release-v1.9.0
 Git#7>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/mtb-pdl-cat1/release-v3.19.0 -c advice.detachedHead=false checkout --progress release-v3.19.0
 Git#5>HEAD is now at bae1529 Upload core-make [3986]
@@ -292,11 +292,11 @@ Git#9>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeninge
 Git#6>HEAD is now at c255813 Upload mtb-hal-cat1 [3856]
 Git#6>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/mtb-hal-cat1/release-v2.7.4 -c advice.detachedHead=false checkout --progress release-v2.7.4
 Git#10>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/bt-fw-mur-cyw4343w/release-v1.0.0 -c advice.detachedHead=false checkout --progress release-v1.0.0
-Git#10>HEAD is now at 7872a48 Upload bt-fw-mur-cyw4343w 1.0.0.2595 [3108]
 Git#9>HEAD is now at 9ecf7fb Upload udb-sdio-whd [990]
-Git#10>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/bt-fw-mur-cyw4343w/release-v1.0.0 -c advice.detachedHead=false checkout --progress release-v1.0.0
-Git#11>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cmsis/release-v5.8.2 -c advice.detachedHead=false checkout --progress release-v5.8.2
 Git#9>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/udb-sdio-whd/release-v1.2.1 -c advice.detachedHead=false checkout --progress release-v1.2.1
+Git#11>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cmsis/release-v5.8.2 -c advice.detachedHead=false checkout --progress release-v5.8.2
+Git#10>HEAD is now at 7872a48 Upload bt-fw-mur-cyw4343w 1.0.0.2595 [3108]
+Git#10>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/bt-fw-mur-cyw4343w/release-v1.0.0 -c advice.detachedHead=false checkout --progress release-v1.0.0
 Git#12>Starting: git -C C:/Users/Bram/.modustoolbox/global/device-db/release-v4.34.0 -c advice.detachedHead=false checkout --progress release-v4.34.0
 Git#11>HEAD is now at 89700d7 Upload cmsis 5.8.2.133 [3108]
 Git#11>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cmsis/release-v5.8.2 -c advice.detachedHead=false checkout --progress release-v5.8.2
@@ -458,8 +458,7 @@ Git#2>Receiving objects:  27% (54/197)
 Git#2>Receiving objects:  28% (56/197)
 Git#2>Receiving objects:  29% (58/197)
 Git#2>Receiving objects:  30% (60/197)
-Receiving objects
-Git#2>:  31% (62/197)
+Git#2>Receiving objects:  31% (62/197)
 Git#2>Receiving objects:  32% (64/197)
 Git#2>Receiving objects:  33% (66/197)
 Git#2>Receiving objects:  34% (67/197)
@@ -475,6 +474,7 @@ Git#2>Receiving objects:  43% (85/197)
 Git#2>Receiving objects:  44% (87/197)
 Git#2>Receiving objects:  45% (89/197)
 Git#2>Receiving objects:  46% (91/197)
+Git#2>remote: Total 197 (delta 20), reused 60 (delta 14), pack-reused 129 (from 1)        
 Git#2>Receiving objects:  47% (93/197)
 Git#2>Receiving objects:  48% (95/197)
 Git#2>Receiving objects:  49% (97/197)
@@ -497,8 +497,7 @@ Git#2>Receiving objects:  65% (129/197)
 Git#2>Receiving objects:  66% (131/197)
 Git#2>Receiving objects:  67% (132/197)
 Git#2>Receiving objects:  68% (134/197)
-Receiving objects: 
-Git#2> 69% (136/197)
+Git#2>Receiving objects:  69% (136/197)
 Git#2>Receiving objects:  70% (138/197)
 Git#2>Receiving objects:  71% (140/197)
 Git#2>Receiving objects:  72% (142/197)
@@ -507,7 +506,6 @@ Git#2>Receiving objects:  74% (146/197)
 Git#2>Receiving objects:  75% (148/197)
 Git#2>Receiving objects:  76% (150/197)
 Git#2>Receiving objects:  77% (152/197)
-Git#2>remote: Total 197 (delta 20), reused 60 (delta 14), pack-reused 129 (from 1)        
 Git#2>Receiving objects:  78% (154/197)
 Git#2>Receiving objects:  79% (156/197)
 Git#2>Receiving objects:  80% (158/197)
@@ -531,31 +529,30 @@ Git#2>Receiving objects:  97% (192/197)
 Git#2>Receiving objects:  98% (194/197)
 Git#2>Receiving objects:  99% (196/197)
 Git#2>Receiving objects: 100% (197/197)
-Git#2>Receiving objects: 100% (197/197), 41.44 KiB | 1.43 MiB/s, done.
+Git#2>Receiving objects: 100% (197/197), 41.44 KiB | 2.44 MiB/s, done.
 Git#2>Resolving deltas:   0% (0/50)
 Git#2>Resolving deltas:   2% (1/50)
+Git#2>Resolving deltas:   4% (2/50)
 Git#2>Resolving deltas:   6% (3/50)
 Git#2>Resolving deltas:   8% (4/50)
 Git#2>Resolving deltas:  10% (5/50)
+Git#2>Resolving deltas:  12% (6/50)
 Git#2>Resolving deltas:  14% (7/50)
 Git#2>Resolving deltas:  16% (8/50)
+Git#2>Resolving deltas:  18% (9/50)
 Git#2>Resolving deltas:  20% (10/50)
-Git#2>Resolving deltas:  22% (11/50)
-Git#2>Resolving deltas:  24% (12/50)
 Git#2>Resolving deltas:  26% (13/50)
 Git#2>Resolving deltas:  28% (14/50)
 Git#2>Resolving deltas:  30% (15/50)
 Git#2>Resolving deltas:  32% (16/50)
 Git#2>Resolving deltas:  34% (17/50)
 Git#2>Resolving deltas:  36% (18/50)
-Git#2>Resolving deltas:  42% (21/50)
+Git#2>Resolving deltas:  38% (19/50)
+Git#2>Resolving deltas:  40% (20/50)
 Git#2>Resolving deltas:  44% (22/50)
 Git#2>Resolving deltas:  46% (23/50)
-Git#2>Resolving deltas:  48% (24/50)
-Git#2>Resolving deltas:  50% (25/50)
 Git#2>Resolving deltas:  52% (26/50)
-Resolving deltas:  54% (27/50)
-Git#2>
+Git#2>Resolving deltas:  54% (27/50)
 Git#2>Resolving deltas:  56% (28/50)
 Git#2>Resolving deltas:  58% (29/50)
 Git#2>Resolving deltas:  60% (30/50)
@@ -577,13 +574,13 @@ Git#2>Resolving deltas:  92% (46/50)
 Git#2>Resolving deltas:  94% (47/50)
 Git#2>Resolving deltas:  96% (48/50)
 Git#2>Resolving deltas:  98% (49/50)
-Git#2>Resolving deltas: 100% (50/50)
+Resolving deltas: 100% (50/50)
+Git#2>
 Git#2>Resolving deltas: 100% (50/50), done.
-Git#2>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs clone --progress --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT TARGET_CY8CKIT-062-WIFI-BT
-Git#13>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs/TARGET_CY8CKIT-062-WIFI-BT -c advice.detachedHead=false checkout --progress release-v5.0.1
+Git#2>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs clone --progress --origin cypress --no-checkout --filter=blob:none https://github.com/cypresssemiconductorco/TARGET_CY8CKIT-062-WIFI-BT TARGET_CY8CKIT-062-WIFI-BT
+Git#13>Starting: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs/TARGET_CY8CKIT-062-WIFI-BT -c advice.detachedHead=false checkout --progress release-v5.0.1
 Git#12>HEAD is now at 8f577aaf Upload device-db 4.34.0.9502 [4379]
 Git#12>Success: git -C C:/Users/Bram/.modustoolbox/global/device-db/release-v4.34.0 -c advice.detachedHead=false checkout --progress release-v4.34.0
-Git#13>Updating files:   3% (6/154)
 Git#13>Updating files:   4% (7/154)
 Git#13>Updating files:   5% (8/154)
 Git#13>Updating files:   6% (10/154)
@@ -594,8 +591,7 @@ Git#13>Updating files:  10% (16/154)
 Git#13>Updating files:  11% (17/154)
 Git#13>Updating files:  12% (19/154)
 Git#13>Updating files:  13% (21/154)
-Updating files:  14% (22/154)
-Git#13>
+Git#13>Updating files:  14% (22/154)
 Git#13>Updating files:  15% (24/154)
 Git#13>Updating files:  16% (25/154)
 Git#13>Updating files:  17% (27/154)
@@ -615,6 +611,7 @@ Git#13>Updating files:  30% (47/154)
 Git#13>Updating files:  31% (48/154)
 Git#13>Updating files:  32% (50/154)
 Git#13>Updating files:  33% (51/154)
+Git#13>Updating files:  33% (52/154)
 Git#13>Updating files:  34% (53/154)
 Git#13>Updating files:  35% (54/154)
 Git#13>Updating files:  36% (56/154)
@@ -629,17 +626,16 @@ Git#13>Updating files:  44% (68/154)
 Git#13>Updating files:  45% (70/154)
 Git#13>Updating files:  46% (71/154)
 Git#13>Updating files:  47% (73/154)
-Git#13>Updating files:  48% (74/154)
+Updating files:  48% (74/154)
+Git#13>
 Git#13>Updating files:  49% (76/154)
-Updating files
-Git#13>:  50% (77/154)
+Git#13>Updating files:  50% (77/154)
 Git#13>Updating files:  51% (79/154)
 Git#13>Updating files:  52% (81/154)
 Git#13>Updating files:  53% (82/154)
 Git#13>Updating files:  54% (84/154)
 Git#13>Updating files:  55% (85/154)
-Updating files
-Git#13>:  56% (87/154)
+Git#13>Updating files:  56% (87/154)
 Git#13>Updating files:  57% (88/154)
 Git#13>Updating files:  58% (90/154)
 Git#13>Updating files:  59% (91/154)
@@ -673,13 +669,10 @@ Git#13>Updating files:  86% (133/154)
 Git#13>Updating files:  87% (134/154)
 Git#13>Updating files:  88% (136/154)
 Git#13>Updating files:  89% (138/154)
-Updating files
-Git#13>:  90% (139/154)
-Updating files
-Git#13>:  91% (141/154)
+Git#13>Updating files:  90% (139/154)
+Git#13>Updating files:  91% (141/154)
 Git#13>Updating files:  92% (142/154)
-Updating files
-Git#13>:  93% (144/154)
+Git#13>Updating files:  93% (144/154)
 Git#13>Updating files:  94% (145/154)
 Git#13>Updating files:  95% (147/154)
 Git#13>Updating files:  96% (148/154)
@@ -689,19 +682,19 @@ Git#13>Updating files:  99% (153/154)
 Git#13>Updating files: 100% (154/154)
 Git#13>Updating files: 100% (154/154), done.
 Git#13>HEAD is now at 34ae298 Upload TARGET_CY8CKIT-062-WIFI-BT [3403]
-Git#13>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs/TARGET_CY8CKIT-062-WIFI-BT -c advice.detachedHead=false checkout --progress release-v5.0.1
+Git#13>Success: git -C C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs/TARGET_CY8CKIT-062-WIFI-BT -c advice.detachedHead=false checkout --progress release-v5.0.1
 Requested to change the active target to 'APP_CY8CKIT-062-WIFI-BT'.
-Removed the file 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/deps/TARGET_CY8CKIT-062-WIFI-BT.mtb'.
-Writing the file 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/libs/app.mk'.
+Removed the file 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/deps/TARGET_CY8CKIT-062-WIFI-BT.mtb'.
+Writing the file 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/libs/app.mk'.
 Successfully committed changes to the project 'mtb-example-empty-app'.
-Project "RTOS_ex2_priority" created successfully.
-Successfully created "RTOS_ex2_priority" application.
+Project "RTOS_ex5_Queue" created successfully.
+Successfully created "RTOS_ex5_Queue" application.
 Generating source
 Generated source successfully.
 ==============================================================================
-= Export "RTOS_ex2_priority" application to Eclipse for ModusToolbox™ =
+= Export "RTOS_ex5_Queue" application to Eclipse for ModusToolbox™ =
 ==============================================================================
-make eclipse CY_IDE_PRJNAME=RTOS_ex2_priority CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2025.8 CY_TOOLS_PATHS=C:/Users/Bram/ModusToolbox/tools_3.6 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
+make eclipse CY_IDE_PRJNAME=RTOS_ex5_Queue CY_MAKE_IDE=eclipse CY_MAKE_IDE_VERSION=2025.8 CY_TOOLS_PATHS=C:/Users/Bram/ModusToolbox/tools_3.6 MTB_MAKE_ECLIPSE_FORCE_REGENERATE_PROJECT=1
 Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
 Searching installed tools in progress...
 Searching installed tools complete
@@ -711,7 +704,7 @@ Generating mtbninja data complete...
 Prebuild operations complete
 Toolchain validation: PASS
 Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
-# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority'
+# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue'
 # 0: Loading the ModusToolbox Technology Packs and Early Access Packs
 # 0: Loading the tools information
 Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
@@ -721,16 +714,16 @@ Generating mtbninja data complete...
 Toolchain validation: PASS
 Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
 Prebuild operations complete
-# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority'
+# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue'
 # 0: Loading the ModusToolbox Technology Packs and Early Access Packs
 # 0: Loading the tools information
 Generated .clangd
-Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/.cproject
-Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/.project
-Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/.mtbLaunchConfigs/RTOS_ex2_priority Program.launch
-Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/.mtbLaunchConfigs/RTOS_ex2_priority Erase Device.launch
-Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/.mtbLaunchConfigs/RTOS_ex2_priority Attach (KitProg3_MiniProg4).launch
-Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex2_priority/.mtbLaunchConfigs/RTOS_ex2_priority Debug (KitProg3_MiniProg4).launch
+Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/.cproject
+Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/.project
+Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/.mtbLaunchConfigs/RTOS_ex5_Queue Program.launch
+Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/.mtbLaunchConfigs/RTOS_ex5_Queue Erase Device.launch
+Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/.mtbLaunchConfigs/RTOS_ex5_Queue Attach (KitProg3_MiniProg4).launch
+Generated C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/RTOS_ex5_Queue/.mtbLaunchConfigs/RTOS_ex5_Queue Debug (KitProg3_MiniProg4).launch
 
 Instructions:
 1. Open Eclipse IDE for ModusToolbox
@@ -739,9 +732,9 @@ Instructions:
 
 For more information, refer to the Eclipse IDE for ModusToolbox user guide.
 
-The application "RTOS_ex2_priority" was successfully exported to Eclipse for ModusToolbox™.
+The application "RTOS_ex5_Queue" was successfully exported to Eclipse for ModusToolbox™.
 0 error(s), 0 warning(s)
 
 Summary:
 
-Successfully created and exported "RTOS_ex2_priority" application.
+Successfully created and exported "RTOS_ex5_Queue" application.

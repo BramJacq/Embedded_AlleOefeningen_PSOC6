@@ -86,3 +86,39 @@
 1:25:07 Memory Pressure: Moderate
 1:25:17 Memory Pressure: Moderate
 1:25:27 Memory Pressure: Moderate
+3:33:09 Microsoft.NewBrowser_Popup
+3:33:09 Microsoft.BrowserList.AddBrowser
+3:33:09 Browser8 Insert active Tab8 at 0
+3:33:09 Tab8 StartNav32 #auto_toplevel
+3:33:09 Tab8 FinishNav32
+3:33:09 Tab8 PageLoad
+3:33:09 Tab8 StartNav33 #typed
+3:33:09 Tab8 FinishNav33
+3:33:09 Tab8 PageLoad
+3:33:09 Tab8 StartNav34 #typed
+3:33:10 Tab8 FinishNav34
+3:33:10 Tab8 PageLoad
+3:35:29 Microsoft.NewBrowser_Popup
+3:35:29 Microsoft.BrowserList.AddBrowser
+3:35:29 Browser9 Insert active Tab9 at 0
+3:35:29 Tab9 StartNav35 #auto_toplevel
+3:35:29 Tab9 FinishNav35
+3:35:29 Tab9 PageLoad
+3:35:29 Tab9 StartNav36 #typed
+3:35:29 Tab9 FinishNav36
+3:35:29 Tab9 PageLoad
+3:35:29 Tab9 StartNav37 #typed
+3:35:29 Tab9 FinishNav37
+3:35:29 Tab9 PageLoad
+3:37:03 Microsoft.NewBrowser_Popup
+3:37:03 Microsoft.BrowserList.AddBrowser
+3:37:03 Browser10 Insert active Tab10 at 0
+3:37:03 Tab10 StartNav38 #auto_toplevel
+3:37:03 Tab10 FinishNav38
+3:37:03 Tab10 PageLoad
+3:37:03 Tab10 StartNav39 #typed
+3:37:04 Tab10 FinishNav39
+3:37:04 Tab10 PageLoad
+3:37:04 Tab10 StartNav40 #typed
+3:37:04 Tab10 FinishNav40
+3:37:04 Tab10 PageLoad
