@@ -60,4 +60,53 @@ In deze integratieoefeningen leer je de kracht van de **Timer, Counter, PWM (TCP
 
 ---
 
+## 🕒 FreeRTOS Oefeningen
+
+Multitasking op de PSoC 6 met taken (threads), semaphores en queues.
+
+### 🧵 Taken & Threads
+
+#### Oefening 1 – Delays
+**Doel:** Gebruik maken van non-blocking delays (`vTaskDelay`).
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/RTOS_ex1_delays/main.c)
+
+#### Oefening 2 – Priority
+**Doel:** Begrijpen hoe de scheduler omgaat met taakprioriteiten.
+* **Library:** Voeg **Retarget-IO** toe voor UART feedback.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/RTOS_ex2_priority/main.c)
+
+#### Oefening 3 – Taakbeheer (Idle/Halted/Running)
+**Doel:** Handmatig de status van een taak manipuleren (Suspend/Resume).
+* **Library:** Voeg **Retarget-IO** toe voor UART feedback.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/RTOS_ex3_idlehaltedrunning/main.c)
+
+---
+
+### 🚦 Semaphores
+
+#### Oefening 4 – Binary Semaphore
+**Doel:** Synchronisatie tussen taken en interrupts afdwingen.
+* **Library:** Voeg **Retarget-IO** toe voor UART feedback.
+* **Taak:** Gebruik `xSemaphoreTake` en `xSemaphoreGive` om kritieke secties te beschermen.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/RTOS_ex4_Semaphore/main.c)
+
+---
+
+### 📬 Queue Management
+
+#### Oefening 5 – Queues & PWM
+**Doel:** Veilige datacommunicatie tussen taken.
+* **Library:** Voeg **Retarget-IO** toe voor UART input/output.
+* **Taak:** Stuur PWM-waarden van een `uartTask` naar een `pwmTask` via een Queue.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/RTOS_ex5_Queue/main.c)
+
+---
+
+> [!IMPORTANT]
+> **Configuratie voor RTOS Oefeningen:**
+> Zorg dat de FreeRTOS library aanwezig is en voeg dit toe aan je **Makefile**:
+> `COMPONENTS= FREERTOS`
+
+---
+
 
