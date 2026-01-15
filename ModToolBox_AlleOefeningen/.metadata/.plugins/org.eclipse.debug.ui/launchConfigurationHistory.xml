@@ -9,6 +9,8 @@
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/TFT_ex4_dynamisch/.mtbLaunchConfigs/TFT_ex4_dynamisch Debug (KitProg3_MiniProg4).launch&quot;/&gt;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/TCPWM_ex1_RotatiesnelheidMotor/.mtbLaunchConfigs/TCPWM_ex1_RotatiesnelheidMotor Debug (KitProg3_MiniProg4).launch&quot;/&gt;&#10;"/>
             <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/TCPWM_ex2_UltrasoneAfstandsMeting/.mtbLaunchConfigs/TCPWM_ex2_UltrasoneAfstandsMeting Debug (KitProg3_MiniProg4).launch&quot;/&gt;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/RTOS_ex1_delays/.mtbLaunchConfigs/RTOS_ex1_delays Debug (KitProg3_MiniProg4).launch&quot;/&gt;&#10;"/>
+            <launch memento="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;launchConfiguration local=&quot;false&quot; path=&quot;/RTOS_ex2_priority/.mtbLaunchConfigs/RTOS_ex2_priority Debug (KitProg3_MiniProg4).launch&quot;/&gt;&#10;"/>
         </favorites>
     </launchGroup>
     <launchGroup id="org.eclipse.debug.ui.launchGroup.profile">
