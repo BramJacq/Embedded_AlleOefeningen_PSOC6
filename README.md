@@ -109,4 +109,49 @@ Multitasking op de PSoC 6 met taken (threads), semaphores en queues.
 
 ---
 
+## 📱 Smart Devices Oefeningen
 
+In dit hoofdstuk verkennen we de geavanceerde functies van de PSoC 6, zoals de interne klok (RTC), beveiligingsmechanismen (WDT) en extern geheugen (QSPI Flash).
+
+### 1. RTC Basics (Real-Time Clock)
+**Doel:** Het bijhouden en weergeven van de actuele datum en tijd.
+* **Taak:** Gebruik de HAL-documentatie om de RTC te configureren. Print bij het opstarten en bij een druk op **SW2** de huidige tijd. Laat elke seconde een "Tick!" zien in de terminal om de status te controleren.
+* **Library:** Voeg **Retarget-IO** toe voor UART feedback.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/SmartDev_ex1_RTC/main.c)
+
+### 2. WDT Basics (Watchdog Timer)
+**Doel:** Het implementeren van een beveiliging tegen software- of hardware-lockups.
+* **Taak:** Reduceer de standaard "Watchdog Timer" template tot een minimalistische versie (±70 regels). Experimenteer met `ENABLE_BLOCKING_FUNCTION` om te zien hoe de WDT de PSoC 6 reset wanneer de code vastloopt.
+* **Inzicht:** WDT is essentieel voor IoT-devices die autonoom moeten blijven functioneren zonder menselijke interventie.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/SmartDev_ex2_WDT/main.c)
+
+> [!NOTE]
+> **RTC vs WDT:** > De **RTC** wordt gebruikt voor tijdstempels en kalenderfuncties (wanneer gebeurde iets?), terwijl de **WDT** een veiligheidsmechanisme is (draait de code nog?). De RTC loopt door in low-power modes, terwijl de WDT de processor dwingt te herstarten bij fouten.
+
+### 3. Memory Basics (External QSPI Flash)
+**Doel:** Werken met non-volatile geheugen voor data-opslag.
+* **Taak:** Gebruik het "QSPI flash read and write" template. Schrijf de tekst "Hello World!" naar het externe Flash-geheugen (U4) en verifieer de geschreven bytes via een Hex-to-Text converter.
+* **Focus:** Begrijp hoe kritieke data (configuraties of sensor logs) bewaard blijven na een stroomonderbreking.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/main.c)
+
+---
+
+### 🔍 Memory Configuratie & Recap
+Bij het zelf opbouwen van een Memory project zijn de volgende stappen cruciaal:
+
+1. **Library & Includes:** De `serial-flash` library moet aanwezig zijn.
+
+   <img width="767" height="407" alt="image" src="https://github.com/user-attachments/assets/40289200-cec3-46cf-a340-96391b138523" />
+
+
+2. **QSPI Configurator:** Gebruik de tool om de geheugeninstellingen te genereren. Dit creëert de benodigde `.c` en `.h` bestanden in de `mem_config` folder.
+
+   <img width="768" height="149" alt="image" src="https://github.com/user-attachments/assets/9fa83523-87d1-4dcc-a6b2-8c907aea4668" />
+
+
+3. **Vergelijking:** Met tools zoals WinMerge kun je zien dat de gegenereerde code sterk overeenkomt met de standaard templates.
+
+   <img width="710" height="408" alt="image" src="https://github.com/user-attachments/assets/c573dc3f-ec64-4991-a8c0-dbb18c4a426b" />
+
+
+---
