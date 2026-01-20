@@ -47,7 +47,7 @@ int main(void)
 {
     cy_rslt_t result;
 	uint8_t tx_buf[PACKET_SIZE] = {'H','e','l','l','o',' ','W','o','r','l','d','!',0};
-    uint8_t rx_buf[PACKET_SIZE];
+    uint8_t rx_buf[PACKET_SIZE]; 	
     uint32_t ext_mem_address = 0x00;    
     size_t sectorSize;
 
@@ -70,7 +70,7 @@ int main(void)
     printf("\r\nTotal Flash Size: %u bytes\r\n", cy_serial_flash_qspi_get_size());
 
     printf("\r\n1. Erasing %u bytes of memory\r\n", sectorSize);
-	cy_serial_flash_qspi_erase(ext_mem_address, sectorSize);
+	cy_serial_flash_qspi_erase(ext_mem_address, sectorSize);	
     
     printf("\r\n3. Writing data to memory\r\n");
     result = cy_serial_flash_qspi_write(ext_mem_address, PACKET_SIZE, tx_buf);
