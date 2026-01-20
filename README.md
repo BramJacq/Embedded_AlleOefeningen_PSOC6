@@ -155,3 +155,24 @@ Bij het zelf opbouwen van een Memory project zijn de volgende stappen cruciaal:
 
 
 ---
+
+### 4. Smart Sensor (Integratieproject)
+**Doel:** Het combineren van alle geleerde technieken (TFT, QSPI, RTC en Low Power) in een realistische smart-sensor workflow.
+
+In deze oefening bouw je een systeem dat de volgende logica volgt:
+1. **Configuratie:** Het apparaat wordt geconfigureerd via UART.
+2. **Meting:** Er wordt een sensor-meting uitgevoerd.
+3. **Visualisatie:** De data wordt getoond op het TFT-display.
+4. **Opslag:** Data wordt gebufferd in het non-volatile geheugen (Flash).
+5. **Low Power:** Het systeem gaat in een energiebesparende modus (Deep Sleep).
+6. **Herhaal:** De RTC of een timer wekt het systeem voor de volgende meting.
+
+**Gebruik van het geheugen:**
+Het non-volatile geheugen houdt kritieke parameters bij, zoals:
+* **Sensor data:** Kalibratiewaarden en gesamplede data.
+* **Gebruikersinstellingen:** Idle/sleep tijd en het aantal samples per flush.
+* **TFT-configuratie:** Instellingen zoals achtergrondkleur of tekst-lay-out.
+
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/SmartDev_ex4_SmartSensor/main.c)
+
+---
