@@ -263,6 +263,7 @@ In dit hoofdstuk leer je de PSoC 6 te verbinden met het internet, TCP-communicat
 
 ---
 
+
 ## 🛠️ HAL & PDL Peripherals
 
 In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee verschillende lagen: de gebruiksvriendelijke **HAL** (Hardware Abstraction Layer) en de meer gedetailleerde **PDL** (Peripheral Driver Library).
@@ -273,89 +274,92 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 **Doel:** Een LED laten knipperen met de Hardware Abstraction Layer.
 * **Projectnaam:** `ch02_ex01_HAL_blinkled`
 * **Taak:** Initialiseer `CYBSP_USER_LED` als output en toggle deze elke 250ms met `cyhal_system_delay_ms`.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/HAL_ex01_blinkled/main.c)
 
 #### 2. Debug Printing via UART
 **Doel:** Seriële communicatie toevoegen voor debugging.
 * **Projectnaam:** `ch03_ex02_HAL_blinkled_print`
 * **Library:** Voeg de **Retarget-IO** library toe.
-* **Taak:** Initialiseer de UART-poort en print "LED ON" en "LED OFF" naar de seriële terminal (115200 baud).
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **Taak:** Initialiseer de UART-poort en print "LED ON" en "LED OFF" naar de seriële terminal.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/HAL_ex02_blinkled_print/main.c)
 
 #### 3. Button Input
 **Doel:** De status van een fysieke drukknop inlezen via polling.
 * **Projectnaam:** `ch02_ex03_HAL_button`
 * **Taak:** Configureer `CYBSP_USER_BTN` met een pull-up weerstand. Zet de LED aan zolang de knop ingedrukt wordt.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/HAL_ex03_button/main.c)
 
 #### 4. GPIO Interrupts
 **Doel:** Reageren op input via hardware interrupts.
 * **Projectnaam:** `ch02_ex04_HAL_interrupt`
 * **Taak:** Registreer een callback functie op de falling edge van de knop om de LED te toggelen zonder de CPU constant te belasten.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/HAL_ex04_interrupt/main.c)
 
 #### 5. PWM: LED Brightness
 **Doel:** De intensiteit van een LED regelen middels pulsbreedtemodulatie.
 * **Projectnaam:** `ch02_ex09_HAL_pwm`
 * **Taak:** Gebruik een PWM-blok om de LED aan te sturen. Varieer de duty cycle in de main loop voor een "fading" effect.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/HAL_ex05_pwm/main.c)
 
 #### 6. UART Receive
 **Doel:** Interactie met de PSoC vanaf je computer.
 * **Projectnaam:** `ch02_ex16_HAL_uartreceive`
 * **Taak:** Gebruik `cyhal_uart_getc` om te luisteren naar '1' (LED aan) of '0' (LED uit).
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/HAL_ex06_uart_receive/main.c)
 
 #### 7. UART Send (Button Count)
 **Doel:** Data terugsturen naar de terminal.
 * **Projectnaam:** `ch02_ex17_HAL_uartsend`
 * **Taak:** Tel knopdrukken (0-9) en stuur de waarde als karakter terug naar de PC via `cyhal_uart_putc`.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/HAL_ex07_uart_send/main.c)
 
 ---
 
 ### 🔵 PDL Oefeningen (Low-Level)
 
-#### 8. GPIO: Blink an LED (PDL)
+#### 1. GPIO: Blink an LED (PDL)
 **Doel:** LED aansturing via de Peripheral Driver Library.
 * **Projectnaam:** `ch02_ex05_PDL_blinkled`
 * **Taak:** Configureer de pin in de **Device Configurator**. Gebruik `Cy_GPIO_Write` en `Cy_SysLib_Delay` voor de implementatie.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex01_blinkled/main.c)
 
-#### 9. Debug Printing (PDL)
+#### 2. Debug Printing (PDL)
 **Doel:** UART configuratie op register-niveau.
 * **Projectnaam:** `ch02_ex06_PDL_blinkled_print`
 * **Taak:** Configureer het SCB-blok (UART) in de Device Configurator en gebruik `Cy_SCB_UART_PutString` voor output.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex02_blinkled_print/main.c)
 
-#### 10. Button Input (PDL)
+#### 3. Button Input (PDL)
 **Doel:** Directe pin-uitlezing met PDL.
 * **Projectnaam:** `ch02_ex07_PDL_button`
 * **Taak:** Gebruik de Device Configurator voor de pull-up instellingen en controleer de status met `Cy_GPIO_Read`.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex03_button/main.c)
 
-#### 11. GPIO Interrupts (PDL)
+#### 4. GPIO Interrupts (PDL)
 **Doel:** Handmatige interrupt configuratie via SysInt.
 * **Projectnaam:** `ch02_ex08_PDL_interrupt`
 * **Taak:** Configureer `Cy_SysInt_Init` en `NVIC_EnableIRQ`. Vergeet niet de interrupt vlag te wissen in de ISR met `Cy_GPIO_ClearInterrupt`.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex04_interrupt/main.c)
 
-#### 12. PWM: LED Brightness (PDL)
+#### 5. PWM: LED Brightness (PDL)
 **Doel:** Het TCPWM-blok direct aansturen.
 * **Projectnaam:** `ch02_ex10_PDL_pwm`
 * **Taak:** Koppel een TCPWM-kanaal aan de LED-pin in de configurator en gebruik `Cy_TCPWM_PWM_SetCompare0` voor de helderheid.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex05_pwm/main.c)
 
-#### 13. UART Receive (PDL)
+#### 6. UART Receive (PDL)
 **Doel:** Ontvangen van seriële data via PDL-functies.
 * **Projectnaam:** `ch02_ex18_PDL_uartreceive`
 * **Taak:** Gebruik `Cy_SCB_UART_Get` om de inkomende karakters te verwerken en de LED te sturen.
-* **🔗 Code:** [Houd hier plaats voor de link naar main.c]
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex06_uart_receive/main.c)
 
-#### 14. UART Send (PDL)
+#### 7. UART Send (PDL)
 **Doel:** Het verzenden van individuele karakters via PDL.
 * **Projectnaam:** `ch02_ex19_PDL_uartsend`
 * **Taak:** Stuur de button-count naar de terminal met de `Cy_SCB_UART_Put` functie.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex07_uart_send/main.c)
+
+---
 * **🔗 Code:** [Houd hier plaats voor de link naar main.c]
 
 ---
