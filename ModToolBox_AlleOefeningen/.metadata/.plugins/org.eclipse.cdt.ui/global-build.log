@@ -6020,3 +6020,432 @@ Calculating memory consumption: CY8C6247BZI-D54 GCC_ARM
   Total Internal Flash (Available)          1048576    
   Total Internal Flash (Utilized)           74048      
 
+21:10:42 **** Clean-only build of configuration Debug for project SmartDev_ex3_Memory ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 clean_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+rm -rf C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build
+21:10:46 **** Build of configuration Debug for project SmartDev_ex3_Memory ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+NOTE: Using 'C:/Users/Bram/ModusToolbox/tools_3.6/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[2/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_routing.o
+[3/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_peripherals.o
+[4/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_capsense.o
+[5/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_01_cm0p_sleep.o
+[6/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/system_psoc6_cm4.o
+[7/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_qspi_memslot.o
+[8/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/bt-fw-mur-cyw4343w/COMPONENT_MURATA-1DX/btfw.o
+[9/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/bluetooth/cybsp_bt_config.o
+[10/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_clocks.o
+[11/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o
+[12/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[13/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o
+[14/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_system.o
+[15/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o
+[16/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_02_cm0p_sleep.o
+[17/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_03_cm0p_sleep.o
+[18/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/local/main.o
+[19/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe4m_cm0p_sleep.o
+[20/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe512k_cm0p_sleep.o
+[21/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_04_cm0p_sleep.o
+[22/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe2m_cm0p_sleep.o
+[23/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe1m_cm0p_sleep.o
+[24/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5300_cm0p_sleep.o
+[25/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5100_cm0p_sleep.o
+[26/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5200_cm0p_sleep.o
+[27/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble_usb.o
+[28/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_104_m_csp_ble.o
+[29/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_43_smt.o
+[30/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_68_qfn_ble.o
+[31/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_usb.o
+[32/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga_sip.o
+[33/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_100_wlcsp.o
+[34/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_80_wlcsp.o
+[35/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_124_bga.o
+[36/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_124_bga.o
+[37/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_01_116_bga_ble.o
+[38/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_100_tqfp.o
+[39/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_68_qfn.o
+[40/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_68_qfn.o
+[41/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_02_128_tqfp.o
+[42/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_68_qfn.o
+[43/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_tqfp.o
+[44/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_144_lqfp.o
+[45/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_80_lqfp.o
+[46/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_03_49_wlcsp.o
+[47/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_100_lqfp.o
+[48/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_80_m_csp.o
+[49/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_176_lqfp.o
+[50/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_psoc6_04_64_tqfp.o
+[51/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_144_lqfp.o
+[52/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_100_lqfp.o
+[53/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_176_lqfp.o
+[54/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe1m_64_lqfp.o
+[55/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_80_lqfp.o
+[56/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_176_lqfp.o
+[57/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe2m_64_lqfp.o
+[58/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_144_lqfp.o
+[59/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_100_lqfp.o
+[60/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_02.o
+[61/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_64_lqfp.o
+[62/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_01.o
+[63/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/pin_packages/cyhal_tviibe4m_80_lqfp.o
+[64/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe2m.o
+[65/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_04.o
+[66/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe4m.o
+[67/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_tviibe1m.o
+[68/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/COMPONENT_CAT1A/source/triggers/cyhal_triggers_psoc6_03.o
+[69/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp.o
+[70/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_analog_common.o
+[71/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crc.o
+[72/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_ctb.o
+[73/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_comp_lp.o
+[74/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_audio_common.o
+[75/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dmac.o
+[76/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_sar.o
+[77/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_adc_mic.o
+[78/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma.o
+[79/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_gpio.o
+[80/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ezi2c.o
+[81/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dac.o
+[82/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_crypto_common.o
+[83/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_hwmgr.o
+[84/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_dma_dw.o
+[85/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2s.o
+[86/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_interconnect.o
+[87/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_clock.o
+[88/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_keyscan.o
+[89/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_irq_impl.o
+[90/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_i2c.o
+[91/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_nvm.o
+[92/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pwm.o
+[93/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_scb_common.o
+[94/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_opamp.o
+[95/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_lptimer.o
+[96/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_sdhc.o
+[97/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_quaddec.o
+[98/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_rtc.o
+[99/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_ipc.o
+[100/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_pdmpcm.o
+[101/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_system.o
+[102/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_adcmic.o
+[103/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_syspm.o
+[104/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/devices/COMPONENT_CAT1A/source/cy_device.o
+[105/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_timer.o
+[106/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_qspi.o
+[107/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_axidmac.o
+[108/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tdm.o
+[109/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_tcpwm_common.o
+[110/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils.o
+[111/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_spi.o
+[112/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_trng.o
+[113/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_wdt.o
+[114/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_utils_impl.o
+[115/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ble_clk.o
+[116/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cordic.o
+[117/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v1.o
+[118/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_canfd.o
+[119/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_usb_dev.o
+[120/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v1.o
+[121/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_aes_v2.o
+[122/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto.o
+[123/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_udb_sdio.o
+[124/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_cmac_v2.o
+[125/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v1.o
+[126/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_domain_params.o
+[127/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-hal-cat1/source/cyhal_uart.o
+[128/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v2.o
+[129/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_crc_v1.o
+[130/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_des_v2.o
+[131/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ecdsa.o
+[132/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_ec25519.o
+[133/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hkdf_v2.o
+[134/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v1.o
+[135/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_key_gen.o
+[136/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hmac_v2.o
+[137/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v1.o
+[138/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw_v1.o
+[139/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_hw.o
+[140/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v1.o
+[141/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_prng_v2.o
+[142/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_mem_v2.o
+[143/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes.o
+[144/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_aes_ccm.o
+[145/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v2.o
+[146/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_eddsa.o
+[147/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_trng.o
+[148/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_sha_v1.o
+[149/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_cmac.o
+[150/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_eddsa.o
+[151/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_key_gen.o
+[152/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecc_ec25519.o
+[153/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_ecc_nist_p.o
+[154/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_rsa.o
+[155/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_sha256.o
+[156/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_trng.o
+[157/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_ecdsa.o
+[158/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hkdf.o
+[159/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_nist_p.o
+[160/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_hmac.o
+[161/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_server.o
+[162/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_rsa.o
+[163/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_crypto_core_vu.o
+[164/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_csd.o
+[165/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_utils.o
+[166/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_cryptolite_vu.o
+[167/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dmac.o
+[168/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ephy.o
+[169/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctdac.o
+[170/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse_v3.o
+[171/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_dma.o
+[172/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ethif.o
+[173/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_v2.o
+[174/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash_srom.o
+[175/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_efuse.o
+[176/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_evtgen.o
+[177/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ctb.o
+[178/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass.o
+[179/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_gpio.o
+[180/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_flash.o
+[181/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_bt.o
+[182/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_ac.o
+[183/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_keyscan.o
+[184/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_pipe.o
+[185/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_sar.o
+[186/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_hppass_csg.o
+[187/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_i2s.o
+[188/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_drv.o
+[189/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd.o
+[190/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mixer.o
+[191/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt_b.o
+[192/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mcwdt.o
+[193/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lin.o
+[194/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_mpc.o
+[195/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ipc_sema.o
+[196/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm_v2.o
+[197/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lvd_ht.o
+[198/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ppc.o
+[199/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_ms_ctl.o
+[200/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pdm_pcm.o
+[201/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra_cfg.o
+[202/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_profile.o
+[203/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_pra.o
+[204/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_lpcomp.o
+[205/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar2.o
+[206/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sd_host.o
+[207/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sar.o
+[208/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_ezi2c.o
+[209/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_common.o
+[210/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_seglcd.o
+[211/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_uart.o
+[212/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_rtc.o
+[213/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_prot.o
+[214/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_hb_flash.o
+[215/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysanalog.o
+[216/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smartio.o
+[217/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk_v2.o
+[218/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint.o
+[219/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_i2c.o
+[220/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_scb_spi.o
+[221/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysfault.o
+[222/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_memslot.o
+[223/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_pdcm.o
+[224/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysint_v2.o
+[225/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syslib.o
+[226/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v3.o
+[227/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v2.o
+[228/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_btss.o
+[229/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif.o
+[230/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_v4.o
+[231/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick.o
+[232/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_systick_v2.o
+[233/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_smif_sfdp.o
+[234/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm_ppu.o
+[235/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_shiftreg.o
+[236/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_counter.o
+[237/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_quaddec.o
+[238/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_syspm.o
+[239/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_motif.o
+[240/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tcpwm_pwm.o
+[241/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_tdm.o
+[242/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_sysclk.o
+[243/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/serial-flash/cy_serial_flash_prog.o
+[244/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt.o
+[245/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_tx.o
+[246/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/ppu_v1.o
+[247/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io.o
+[248/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_wdt_b.o
+[249/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd_rx.o
+[250/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/third_party/ethernet/src/edd.o
+[251/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv_io_dma.o
+[252/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_usbfs_dev_drv.o
+[253/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/cy_trigmux.o
+[254/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/mtb-pdl-cat1/utils/TOOLCHAIN_GCC_ARM/mtb_stdlib_stubs.o
+[255/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/udb-sdio-whd/COMPONENT_UDB_SDIO_P2/SDIO_HOST_cfg.o
+[256/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/retarget-io/source/cy_retarget_io.o
+[257/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/serial-flash/cy_serial_flash_qspi.o
+[258/259] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/Debug/libraries_shared/udb-sdio-whd/SDIO_HOST.o
+[259/259] Linking, creating elf file build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: warning: build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf has a LOAD segment with RWX permissions
+
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-objcopy -O ihex C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/SmartDev_ex3_Memory/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.hex
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C6247BZI-D54 GCC_ARM
+
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .cy_m0p_image        |  0x10000000   |  6580       | 
+  | .text                |  0x10002000   |  63640      | 
+  | .ARM.exidx           |  0x10011898   |  8          | 
+  | .copy.table          |  0x100118a0   |  24         | 
+  | .zero.table          |  0x100118b8   |  8          | 
+  | .data                |  0x0800228c   |  2156       | 
+  | .cy_sharedmem        |  0x08002af8   |  12         | 
+  | .noinit              |  0x08002b08   |  233        | 
+  | .bss                 |  0x08002bf4   |  2200       | 
+  | .heap                |  0x08003490   |  275312     | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          1048576    
+  Total Internal Flash (Utilized)           74048      
+
+02:14:32 **** Clean-only build of configuration Debug for project WiFi_ex1_attach ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 clean_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+FW_FILE_PATH_NAME is: "../mtb_shared/wifi-host-driver/release-v5.0.8/WHD/COMPONENT_WIFI5/resources/firmware/COMPONENT_4343W/4343WA1.bin"
+DATA_PATH ""../mtb_shared/wifi-host-driver/release-v5.0.8/WHD/COMPONENT_WIFI5/resources/firmware/COMPONENT_4343W/4343WA1.bin"" does not exist. Please provide a valid directory.
+UNAME_S is: CYGWIN_NT-10.0-26200
+stat: cannot stat '../mtb_shared/wifi-host-driver/release-v5.0.8/WHD/COMPONENT_WIFI5/resources/firmware/COMPONENT_4343W/4343WA1.bin': No such file or directory
+FW_FILE_SIZE is: 
+The wifi resource path is: ../mtb_shared/wifi-resources/release-v3.0.0
+The MAC address is: 00:A0:50:09:c7:d0
+NVRAM_FILE_PATH_NAME is: ""
+CLM_FILE_PATH_NAME is: "../mtb_shared/wifi-resources/release-v3.0.0/clm/COMPONENT_WIFI5/COMPONENT_4343W/COMPONENT_MURATA-1DX/4343WA1.clm_blob"
+DATA_PATH """" does not exist. Please provide a valid directory.
+DATA_PATH ""../mtb_shared/wifi-resources/release-v3.0.0/clm/COMPONENT_WIFI5/COMPONENT_4343W/COMPONENT_MURATA-1DX/4343WA1.clm_blob"" does not exist. Please provide a valid directory.
+sed: can't read : No such file or directory
+stat: cannot stat '': No such file or directory
+stat: cannot stat '../mtb_shared/wifi-resources/release-v3.0.0/clm/COMPONENT_WIFI5/COMPONENT_4343W/COMPONENT_MURATA-1DX/4343WA1.clm_blob': No such file or directory
+rm -rf C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build
+02:14:39 **** Build of configuration Debug for project WiFi_ex1_attach ****
+"C:\\Users\\Bram\\ModusToolbox\\tools_3.6\\modus-shell\\bin\\make" CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj 
+Tools Directory: C:/Users/Bram/ModusToolbox/tools_3.6
+Searching installed tools in progress...
+Searching installed tools complete
+FW_FILE_PATH_NAME is: "../mtb_shared/wifi-host-driver/release-v5.0.8/WHD/COMPONENT_WIFI5/resources/firmware/COMPONENT_4343W/4343WA1.bin"
+DATA_PATH ""../mtb_shared/wifi-host-driver/release-v5.0.8/WHD/COMPONENT_WIFI5/resources/firmware/COMPONENT_4343W/4343WA1.bin"" does not exist. Please provide a valid directory.
+UNAME_S is: CYGWIN_NT-10.0-26200
+stat: cannot stat '../mtb_shared/wifi-host-driver/release-v5.0.8/WHD/COMPONENT_WIFI5/resources/firmware/COMPONENT_4343W/4343WA1.bin': No such file or directory
+FW_FILE_SIZE is: 
+The wifi resource path is: ../mtb_shared/wifi-resources/release-v3.0.0
+The MAC address is: 00:A0:50:09:c7:d0
+NVRAM_FILE_PATH_NAME is: ""
+CLM_FILE_PATH_NAME is: "../mtb_shared/wifi-resources/release-v3.0.0/clm/COMPONENT_WIFI5/COMPONENT_4343W/COMPONENT_MURATA-1DX/4343WA1.clm_blob"
+DATA_PATH """" does not exist. Please provide a valid directory.
+DATA_PATH ""../mtb_shared/wifi-resources/release-v3.0.0/clm/COMPONENT_WIFI5/COMPONENT_4343W/COMPONENT_MURATA-1DX/4343WA1.clm_blob"" does not exist. Please provide a valid directory.
+sed: can't read : No such file or directory
+stat: cannot stat '': No such file or directory
+stat: cannot stat '../mtb_shared/wifi-resources/release-v3.0.0/clm/COMPONENT_WIFI5/COMPONENT_4343W/COMPONENT_MURATA-1DX/4343WA1.clm_blob': No such file or directory
+NOTE: Using 'C:/Users/Bram/ModusToolbox/tools_3.6/ninja/ninja.exe' from PATH.
+Generating mtbninja data files...
+Generating mtbninja data complete...
+Toolchain validation: PASS
+Initializing build: mtb-example-empty-app Debug APP_CY8CKIT-062-WIFI-BT GCC_ARM
+
+Prebuild operations complete
+# 0: Loading the application in directory 'C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach'
+# 0: Loading the ModusToolbox Technology Packs and Early Access Packs
+# 0: Loading the tools information
+[1/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/mtb-pdl-cat1/drivers/source/TOOLCHAIN_GCC_ARM/cy_syslib_ext.o
+[2/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_routing.o
+[3/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/TOOLCHAIN_GCC_ARM/startup_psoc6_01_cm4.o
+[4/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_peripherals.o
+[5/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_qspi_memslot.o
+[6/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_capsense.o
+[7/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/COMPONENT_CM4/system_psoc6_cm4.o
+[8/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/bluetooth/cybsp_bt_config.o
+[9/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg.o
+[10/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_pins.o
+[11/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_system.o
+[12/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/config/GeneratedSource/cycfg_clocks.o
+[13/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/bt-fw-mur-cyw4343w/COMPONENT_MURATA-1DX/btfw.o
+[14/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/bsps/APP_CY8CKIT-062-WIFI-BT/cybsp.o
+[15/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_04_cm0p_sleep.o
+[16/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_03_cm0p_sleep.o
+[17/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_02_cm0p_sleep.o
+[18/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/psoc6_01_cm0p_sleep.o
+[19/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe2m_cm0p_sleep.o
+[20/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe1m_cm0p_sleep.o
+[21/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe4m_cm0p_sleep.o
+[22/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/tviibe512k_cm0p_sleep.o
+[23/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5300_cm0p_sleep.o
+[24/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_freertos_helpers.o
+[25/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5100_cm0p_sleep.o
+[26/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_freertos_common.o
+[27/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cat1cm0p/COMPONENT_CAT1A/COMPONENT_CM0P_SLEEP/xmc5200_cm0p_sleep.o
+[28/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/network/COMPONENT_LWIP/cy_nw_helper.o
+FAILED: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/network/COMPONENT_LWIP/cy_nw_helper.o 
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-gcc.exe -c -mcpu=cortex-m4 --specs=nano.specs -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall -pipe -MMD -MP -MF C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/network/COMPONENT_LWIP/cy_nw_helper.o.d -MT C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/network/COMPONENT_LWIP/cy_nw_helper.o @C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/network/COMPONENT_LWIP/cy_nw_helper.o.rsp -o C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/network/COMPONENT_LWIP/cy_nw_helper.o -c C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/connectivity-utilities/release-v4.5.2/network/COMPONENT_LWIP/cy_nw_helper.c
+In file included from ../mtb_shared/lwip/STABLE-2_1_2_RELEASE/src/include/lwip/opt.h:51,
+                 from ../mtb_shared/lwip/STABLE-2_1_2_RELEASE/src/include/lwip/dhcp.h:41,
+                 from C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/connectivity-utilities/release-v4.5.2/network/COMPONENT_LWIP/cy_nw_helper.c:38:
+./lwipopts.h:34:10: fatal error: whd_types.h: No such file or directory
+   34 | #include <whd_types.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+
+[29/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/local/main.o
+FAILED: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/local/main.o 
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-gcc.exe -c -mcpu=cortex-m4 --specs=nano.specs -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall -pipe -MMD -MP -MF C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/local/main.o.d -MT C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/local/main.o @C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/local/main.o.rsp -o C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/local/main.o -c C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/main.c
+In file included from C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/wifi_config.h:4,
+                 from C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/main.c:8:
+../mtb_shared/wifi-connection-manager/release-v4.1.0/include/cy_wcm.h:69:10: fatal error: whd_types.h: No such file or directory
+   69 | #include "whd_types.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+
+[30/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/cy_string/cy_string_utils.o
+[31/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/cy_log/cy_log.o
+[32/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/linked_list/cy_linked_list.o
+[33/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/JSON_parser/cy_json_parser.o
+[34/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/connectivity-utilities/network/cy_nw_helper_common.o
+[35/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_rtos_dsram.o
+[36/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/abstraction-rtos/source/cy_worker_thread.o
+[37/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/aes_gcm_alt_mxcrypto.o
+[38/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/crypto_common.o
+[39/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/clib-support/source/COMPONENT_FREERTOS/cy_mutex_pool.o
+[40/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/aes_alt_mxcrypto.o
+FAILED: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/aes_alt_mxcrypto.o 
+C:/Users/Bram/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-gcc.exe -c -mcpu=cortex-m4 --specs=nano.specs -Og -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall -pipe -MMD -MP -MF C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/aes_alt_mxcrypto.o.d -MT C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/aes_alt_mxcrypto.o @C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/aes_alt_mxcrypto.o.rsp -o C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/cy-mbedtls-acceleration/mbedtls_MXCRYPTO/aes_alt_mxcrypto.o -c C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cy-mbedtls-acceleration/release-v3.0.0/mbedtls_MXCRYPTO/aes_alt_mxcrypto.c
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cy-mbedtls-acceleration/release-v3.0.0/mbedtls_MXCRYPTO/aes_alt_mxcrypto.c: In function 'mbedtls_aes_init':
+C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/mtb_shared/cy-mbedtls-acceleration/release-v3.0.0/mbedtls_MXCRYPTO/aes_alt_mxcrypto.c:76:50: error: implicit declaration of function 'CY_CRYPTO_DCACHE_ALIGN_ADDRESS'; did you mean 'CY_CRYPTO_DCAHCE_ALIGN_ADDRESS'? [-Wimplicit-function-declaration]
+   76 |     ctx->aes_state = (cy_stc_crypto_aes_state_t*)CY_CRYPTO_DCACHE_ALIGN_ADDRESS(ctx->aes_state_t);
+      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                  CY_CRYPTO_DCAHCE_ALIGN_ADDRESS
+[41/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/abstraction-rtos/source/COMPONENT_FREERTOS/cyabs_rtos_freertos.o
+[42/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/clib-support/source/TOOLCHAIN_GCC_ARM/cy_clib_support_newlib.o
+[43/503] Building object file C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/Debug/libraries_shared/clib-support/source/cy_time.o
+ninja: build stopped: subcommand failed.
+make: *** [../mtb_shared/core-make/release-v3.8.0/make/core/ninja.mk:244: C:/Embedded_AlleOefeningen_PSOC6/ModToolBox_AlleOefeningen/WiFi_ex1_attach/build/APP_CY8CKIT-062-WIFI-BT/Debug/mtb-example-empty-app.elf] Error 1
+"C:/Users/Bram/ModusToolbox/tools_3.6/modus-shell/bin/make CY_MAKE_IDE=eclipse CY_IDE_TOOLS_DIR=C:/Users/Bram/ModusToolbox/tools_3.6 CY_IDE_BT_TOOLS_DIR= -j14 build_proj" terminated with exit code 2. Build might be incomplete.
