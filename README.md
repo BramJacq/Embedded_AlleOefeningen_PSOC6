@@ -176,3 +176,89 @@ Het non-volatile geheugen houdt kritieke parameters bij, zoals:
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/SmartDev_ex4_SmartSensor/main.c)
 
 ---
+
+
+## 🌐 WiFi & Connectiviteit (AnyCloud)
+
+In dit hoofdstuk leer je de PSoC 6 te verbinden met het internet, TCP-communicatie op te zetten, JSON-data te parsen en te werken met MQTT.
+
+### 📶 WiFi Basis (Station Mode)
+
+#### Oefening 1 – Attach to WiFi
+**Doel:** Verbinding maken met een beveiligd WPA2 netwerk.
+* **Taak:** Wijzig de SSID en het wachtwoord in de code om te verbinden met je eigen netwerk.
+* **📂 Project:** [WiFi_ex01_attach](ModToolBox_AlleOefeningen/WiFi_ex01_attach)
+
+#### Oefening 2 – Open Network
+**Doel:** Verbinden met een onbeveiligd netwerk.
+* **Taak:** Bestudeer wat er in de configuratie verandert wanneer er geen wachtwoord vereist is.
+* **📂 Project:** [WiFi_ex02_open](ModToolBox_AlleOefeningen/WiFi_ex02_open)
+
+#### Oefening 3 – IP Adres Octetten
+**Doel:** Het verkregen IP-adres uitlezen en formatteren.
+* **Taak:** Analyseer hoe de individuele octetten uit het IPv4-adres worden geëxtraheerd voor weergave.
+* **📂 Project:** [WiFi_ex03_print](ModToolBox_AlleOefeningen/WiFi_ex03_print)
+
+#### Oefening 4 – Multi-Network Support
+**Doel:** Redundantie inbouwen door meerdere SSID's op te slaan.
+* **Taak:** Pas de code aan zodat het systeem na $x$ pogingen automatisch overschakelt naar een alternatief netwerk.
+* **📂 Project:** [WiFi_ex04_multi](ModToolBox_AlleOefeningen/WiFi_ex04_multi)
+
+---
+
+### 🔌 TCP Client Communicatie
+
+#### Oefening 5 – Connect to TCP Server
+**Doel:** Low-level socket communicatie en RTOS integratie.
+* **Inzicht:** Leer het gebruik van Semaphores en `xTaskNotify` binnen netwerk-callbacks.
+* **Taak:** Verbind de PSoC met een externe server (bijv. Hercules op je PC) via een fixed IP en poort.
+* **📂 Project:** [WiFi_ex05_client](ModToolBox_AlleOefeningen/WiFi_ex05_client)
+
+#### Oefening 6 – TCP Response & Commando's
+**Doel:** Bidirectionele communicatie.
+* **Taak:** Breid de client uit zodat deze reageert op commando's vanuit de server. Implementeer logica voor "ON", "OFF" en "TOGGLE".
+* **📂 Project:** [WiFi_ex06_client_response](ModToolBox_AlleOefeningen/WiFi_ex06_client_response)
+
+---
+
+### 📦 JSON & API's
+
+#### Oefening 7 – Parse JSON (cJSON)
+**Doel:** Gestructureerde data verwerken met de cJSON library.
+* **Taak:** Bouw een JSON-object en extraheer specifieke velden zoals "name" en "student" om een geformatteerde string te printen.
+* **📂 Project:** [WiFi_ex07_json](ModToolBox_AlleOefeningen/WiFi_ex07_json)
+
+#### Oefening 8 – JSON in Callbacks
+**Doel:** Efficiënt data parsen zodra deze binnenkomt.
+* **Taak:** Verplaats de parse-logica naar de `jsonCallback` functie.
+* **📂 Project:** [WiFi_ex08_jsonparser](ModToolBox_AlleOefeningen/WiFi_ex08_jsonparser)
+
+---
+
+### 🌍 HTTP Requests (Optioneel)
+
+#### Oefening 9 – HTTP GET
+**Doel:** Data ophalen van een webserver.
+* **Taak:** Vraag data op via `httpbin.org/anything` en bestudeer de headers.
+* **📂 Project:** [WiFi_ex09_get](ModToolBox_AlleOefeningen/WiFi_ex09_get)
+
+#### Oefening 10 – HTTP POST & PostBin
+**Doel:** Data versturen naar een cloud-service.
+* **Taak:** Maak een bin aan op PostBin en stuur een JSON-body met je StudentID en een LED-status via een HTTPS POST request.
+* **📂 Project:** [WiFi_ex10_post](ModToolBox_AlleOefeningen/WiFi_ex10_post)
+
+---
+
+### 🔋 Advanced & IoT
+
+#### Oefening 11 – Low Power WiFi
+**Doel:** Stroomverbruik minimaliseren terwijl de WiFi-verbinding behouden blijft.
+* **Focus:** Bestudeer de WLAN Low Power modes en DTIM-intervallen.
+* **📂 Project:** [WiFi_ex11_wlan_low_power](ModToolBox_AlleOefeningen/WiFi_ex11_wlan_low_power)
+
+#### Oefening 12 – MQTT Client
+**Doel:** Pub/Sub communicatie voor IoT toepassingen.
+* **Taak:** Gebruik de HiveMQ broker om data uit te wisselen op het topic `PLX_psoc`. Analyseer de RTOS queue die de inkomende berichten beheert.
+* **📂 Project:** [WiFi_ex12_mqtt](ModToolBox_AlleOefeningen/WiFi_ex12_mqtt)
+
+---
