@@ -1,0 +1,54 @@
+[
+    {
+        "asset-name": "abstraction-rtos",
+        "locked-commit": "release-v1.12.0"
+    },
+    {
+        "asset-name": "clib-support",
+        "locked-commit": "release-v1.8.0"
+    },
+    {
+        "asset-name": "connectivity-utilities",
+        "locked-commit": "release-v4.5.1"
+    },
+    {
+        "asset-name": "cy-mbedtls-acceleration",
+        "locked-commit": "release-v2.7.0"
+    },
+    {
+        "asset-name": "freertos",
+        "locked-commit": "release-v10.5.004"
+    },
+    {
+        "asset-name": "lwip-freertos-integration",
+        "locked-commit": "release-v1.1.0"
+    },
+    {
+        "asset-name": "lwip-network-interface-integration",
+        "locked-commit": "release-v1.6.0"
+    },
+    {
+        "asset-name": "secure-sockets",
+        "locked-commit": "release-v3.10.0"
+    },
+    {
+        "asset-name": "whd-bsp-integration",
+        "locked-commit": "release-v2.3.1"
+    },
+    {
+        "asset-name": "wifi-connection-manager",
+        "locked-commit": "release-v3.7.0"
+    },
+    {
+        "asset-name": "wifi-host-driver",
+        "locked-commit": "release-v4.3.1"
+    },
+    {
+        "asset-name": "wifi-resources",
+        "locked-commit": "release-v2.0.0"
+    },
+    {
+        "asset-name": "wpa3-external-supplicant",
+        "locked-commit": "release-v1.2.3"
+    }
+]
