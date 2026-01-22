@@ -392,6 +392,8 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex01_blinkled/main.c)
 > **Hoe moet je dit doen?** > Stel de pin in de Device Configurator in (Strong drive). Gebruik PDL-functies in de code.  
 > **Wat gebeurt hier?** > Basis-aansturing op een lager niveau (register-georiënteerd) met PDL-functies.
+<img width="522" height="37" alt="image" src="https://github.com/user-attachments/assets/70b3480c-df9f-48fe-8576-4c40e2e48fd6" />
+<img width="536" height="36" alt="image" src="https://github.com/user-attachments/assets/402017f3-65ed-42c0-bed7-cc666b8aafa1" />
 
 #### 2. Debug Printing (PDL)
 **Doel:** UART configuratie op register-niveau.
@@ -400,6 +402,14 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex02_blinkled_print/main.c)
 > **Hoe moet je dit doen?** > Configureer een SCB-blok als UART in de configurator. Gebruik `Cy_SCB_UART_PutString`.  
 > **Wat gebeurt hier?** > Low-level UART configuratie voor statusberichten.
+<img width="522" height="37" alt="image" src="https://github.com/user-attachments/assets/70b3480c-df9f-48fe-8576-4c40e2e48fd6" />
+<img width="536" height="36" alt="image" src="https://github.com/user-attachments/assets/402017f3-65ed-42c0-bed7-cc666b8aafa1" />
+<img width="510" height="61" alt="image" src="https://github.com/user-attachments/assets/41c0a51a-96ac-431b-8812-5b1eb566888e" />
+<img width="734" height="651" alt="image" src="https://github.com/user-attachments/assets/412499a6-be20-4f39-8e18-f79cf01bb107" />
+<img width="716" height="635" alt="image" src="https://github.com/user-attachments/assets/5761e014-e653-413a-bb0b-db683e5d7c9b" />
+<img width="442" height="26" alt="image" src="https://github.com/user-attachments/assets/16908632-6349-48a2-8482-117765b9dda6" />
+<img width="655" height="30" alt="image" src="https://github.com/user-attachments/assets/05d9fd1a-808b-4477-aa77-4579508b1a4f" />
+<img width="849" height="60" alt="image" src="https://github.com/user-attachments/assets/8db939cd-7872-47f4-a4f2-e88f5bb3dfd1" />
 
 #### 3. Button Input (PDL)
 **Doel:** Directe pin-uitlezing met PDL.
@@ -408,6 +418,10 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex03_button/main.c)
 > **Hoe moet je dit doen?** > Stel de pull-up in de configurator in. Gebruik `Cy_GPIO_Read` op de juiste poort en pin.  
 > **Wat gebeurt hier?** > Rechtstreekse uitlezing van de knopstatus via PDL register-level functies.
+<img width="518" height="39" alt="image" src="https://github.com/user-attachments/assets/882d74e9-0d09-46a2-ab84-a3458700c511" />
+<img width="532" height="34" alt="image" src="https://github.com/user-attachments/assets/6ea14d8d-d794-4da0-9ecf-df3e03d55b8a" />
+<img width="508" height="27" alt="image" src="https://github.com/user-attachments/assets/1872116e-4cbf-4ed5-8a48-2b3eca8b9319" />
+<img width="691" height="33" alt="image" src="https://github.com/user-attachments/assets/5c0c2295-9ceb-4097-b1dc-41c69d0cb5c6" />
 
 #### 4. GPIO Interrupts (PDL)
 **Doel:** Handmatige interrupt configuratie via SysInt.
@@ -416,6 +430,11 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex04_interrupt/main.c)
 > **Hoe moet je dit doen?** > Stel de ISR-vector in met `Cy_SysInt_Init`. Schakel de interrupt in op de NVIC en wis de vlag handmatig.  
 > **Wat gebeurt hier?** > Volledig handmatige interrupt-afhandeling op register-niveau, essentieel voor low-level optimalisatie.
+<img width="518" height="39" alt="image" src="https://github.com/user-attachments/assets/882d74e9-0d09-46a2-ab84-a3458700c511" />
+<img width="532" height="34" alt="image" src="https://github.com/user-attachments/assets/6ea14d8d-d794-4da0-9ecf-df3e03d55b8a" />
+<img width="715" height="39" alt="image" src="https://github.com/user-attachments/assets/e417d926-28e3-4e4c-89ee-4f4409d78d1e" />
+<img width="508" height="27" alt="image" src="https://github.com/user-attachments/assets/1872116e-4cbf-4ed5-8a48-2b3eca8b9319" />
+<img width="691" height="33" alt="image" src="https://github.com/user-attachments/assets/5c0c2295-9ceb-4097-b1dc-41c69d0cb5c6" />
 
 #### 5. PWM: LED Brightness (PDL)
 **Doel:** Het TCPWM-blok direct aansturen.
