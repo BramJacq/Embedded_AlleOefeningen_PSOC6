@@ -552,6 +552,7 @@ In dit hoofdstuk leer je hoe je de capacitieve touch-sensoren (knoppen en slider
 >
 > **Wat gebeurt hier?**
 > De code voert een periodieke scan uit. Bij detectie van een 'Touch' op een button wordt de GPIO van de LED aangestuurd. De slider-positie (0-100) wordt direct omgezet naar een PWM duty-cycle om de helderheid te regelen.
+<img width="741" height="462" alt="image" src="https://github.com/user-attachments/assets/4e700181-00eb-4e2c-85d4-248cf6f351bf" />
 
 ### 3. Integratie van Gestures
 **Doel:** Complexe bewegingen zoals swipes (flicks) en clicks herkennen op de slider.
