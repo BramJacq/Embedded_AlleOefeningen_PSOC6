@@ -459,23 +459,21 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex05_pwm/main.c)
 > **Hoe moet je dit doen?** > Koppel een TCPWM blok aan een pin in de configurator. Gebruik `Cy_TCPWM_PWM_SetCompare0` om registers direct te schrijven.  
 > **Wat gebeurt hier?** > Helderheidsregeling door directe manipulatie van de PWM compare-registers via PDL.
-<img width="517" height="33" alt="image" src="https://github.com/user-attachments/assets/59cad46c-4796-4164-b34d-ae70085e39bb" />  
+<img width="517" height="33" alt="image" src="https://github.com/user-attachments/assets/59cad46c-4796-4164-b34d-ae70085e39bb" />
 
-<img width="708" height="39" alt="image" src="https://github.com/user-attachments/assets/b376860a-19c9-4816-a66b-479407d9dbf1" />  
+<img width="708" height="39" alt="image" src="https://github.com/user-attachments/assets/b376860a-19c9-4816-a66b-479407d9dbf1" />
 
-<img width="738" height="32" alt="image" src="https://github.com/user-attachments/assets/eb8dff99-968a-439b-b267-c98b6bbbcba2" />  
+<img width="738" height="32" alt="image" src="https://github.com/user-attachments/assets/eb8dff99-968a-439b-b267-c98b6bbbcba2" />
 
-<img width="673" height="171" alt="image" src="https://github.com/user-attachments/assets/0b8981cf-4bfc-4aa3-a589-60bf60932d34" />  
+<img width="673" height="171" alt="image" src="https://github.com/user-attachments/assets/0b8981cf-4bfc-4aa3-a589-60bf60932d34" />
 
 <img width="512" height="26" alt="image" src="https://github.com/user-attachments/assets/52de8081-5e81-4367-ac72-b7c8f1c97874" />
 
+<img width="349" height="401" alt="image" src="https://github.com/user-attachments/assets/d2c86613-6abe-4ac3-bc56-01f36e14900d" />
 
-<img width="349" height="401" alt="image" src="https://github.com/user-attachments/assets/d2c86613-6abe-4ac3-bc56-01f36e14900d" />  
+<img width="873" height="724" alt="image" src="https://github.com/user-attachments/assets/8c228ee2-dbc7-42db-8ad3-9aed1aa9b14f" />
 
-<img width="873" height="724" alt="image" src="https://github.com/user-attachments/assets/8c228ee2-dbc7-42db-8ad3-9aed1aa9b14f" />  
-
-<img width="319" height="28" alt="image" src="https://github.com/user-attachments/assets/3db69478-66dd-425d-8cfc-5024231b4420" />  
-
+<img width="319" height="28" alt="image" src="https://github.com/user-attachments/assets/3db69478-66dd-425d-8cfc-5024231b4420" />
 
 #### 6. UART Receive (PDL)
 **Doel:** Ontvangen van seriële data via PDL-functies.
