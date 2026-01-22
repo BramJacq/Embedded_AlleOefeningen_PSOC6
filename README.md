@@ -450,6 +450,7 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 <img width="512" height="26" alt="image" src="https://github.com/user-attachments/assets/52de8081-5e81-4367-ac72-b7c8f1c97874" />
 <img width="349" height="401" alt="image" src="https://github.com/user-attachments/assets/d2c86613-6abe-4ac3-bc56-01f36e14900d" />
 <img width="873" height="724" alt="image" src="https://github.com/user-attachments/assets/8c228ee2-dbc7-42db-8ad3-9aed1aa9b14f" />
+<img width="319" height="28" alt="image" src="https://github.com/user-attachments/assets/3db69478-66dd-425d-8cfc-5024231b4420" />
 
 #### 6. UART Receive (PDL)
 **Doel:** Ontvangen van seriële data via PDL-functies.
@@ -458,6 +459,14 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex06_uart_receive/main.c)
 > **Hoe moet je dit doen?** > Gebruik `Cy_SCB_UART_Get` in een loop om de RX-FIFO van de UART uit te lezen.  
 > **Wat gebeurt hier?** > Karakter-verwerking via de PDL-laag om acties op de LED uit te voeren.
+<img width="517" height="34" alt="image" src="https://github.com/user-attachments/assets/edda9ebf-c535-4840-911f-56c386bc402f" />
+<img width="629" height="43" alt="image" src="https://github.com/user-attachments/assets/52f214d7-db21-4d15-8995-9c7740e8aa79" />
+<img width="509" height="28" alt="image" src="https://github.com/user-attachments/assets/b50af2d7-c70c-4dd8-9c94-dd9e07da9ad2" />
+<img width="713" height="562" alt="image" src="https://github.com/user-attachments/assets/6f7aff27-95ee-4943-9598-c08d46391088" />
+<img width="480" height="29" alt="image" src="https://github.com/user-attachments/assets/7a83670f-6397-4ce2-b1db-eff1094e9459" />
+<img width="729" height="570" alt="image" src="https://github.com/user-attachments/assets/de97cd55-9faa-4d4c-b6ef-6e7ef7aa39d7" />
+<img width="690" height="30" alt="image" src="https://github.com/user-attachments/assets/adebbd5c-55b6-41f0-a867-ae216a6a371f" />
+<img width="857" height="755" alt="image" src="https://github.com/user-attachments/assets/b58c9677-b4b6-45c7-b85c-9cc0edb0b836" />
 
 #### 7. UART Send (PDL)
 **Doel:** Het verzenden van individuele karakters via PDL.
@@ -466,5 +475,15 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex07_uart_send/main.c)
 > **Hoe moet je dit doen?** > Gebruik `Cy_SCB_UART_Put` om een byte direct naar de TX-FIFO van de UART te sturen.  
 > **Wat gebeurt hier?** > Efficiënte verzending van teller-data zonder gebruik van printf, via low-level PDL functies.
+<img width="506" height="26" alt="image" src="https://github.com/user-attachments/assets/03ac3216-e8e5-40cd-9a5e-36f6797bfba2" />
+<img width="719" height="339" alt="image" src="https://github.com/user-attachments/assets/aeca84da-b7cf-450e-9f75-c488b26bff51" />
+<img width="508" height="35" alt="image" src="https://github.com/user-attachments/assets/00577b9c-088e-4a4c-b6ad-d1004f33e247" />
+<img width="742" height="224" alt="image" src="https://github.com/user-attachments/assets/995717df-5c09-47d7-99f8-df04ee73d1f6" />
+<img width="445" height="29" alt="image" src="https://github.com/user-attachments/assets/52fdfa76-fefe-4afa-9d92-eb28653480e6" />
+<img width="698" height="572" alt="image" src="https://github.com/user-attachments/assets/e2b37adc-c95a-4192-ae5e-530b94404f08" />
+<img width="467" height="26" alt="image" src="https://github.com/user-attachments/assets/07987a39-ea11-4a77-baa8-16a5e3003a16" />
+<img width="659" height="565" alt="image" src="https://github.com/user-attachments/assets/6506919d-7773-453f-b1be-51ae24d5111b" />
+<img width="734" height="29" alt="image" src="https://github.com/user-attachments/assets/a88fef36-d2f9-4939-b4d0-59e46cd3f7e4" />
+<img width="834" height="721" alt="image" src="https://github.com/user-attachments/assets/0ad2a69a-acca-47b7-acfa-81f1b89c3827" />
 
 ---
