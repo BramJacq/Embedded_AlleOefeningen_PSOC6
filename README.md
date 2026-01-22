@@ -459,7 +459,7 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex05_pwm/main.c)
 > **Hoe moet je dit doen?** > Koppel een TCPWM blok aan een pin in de configurator. Gebruik `Cy_TCPWM_PWM_SetCompare0` om registers direct te schrijven.  
 > **Wat gebeurt hier?** > Helderheidsregeling door directe manipulatie van de PWM compare-registers via PDL.
-<img width="517" height="33" alt="image" src="https://github.com/user-attachments/assets/59cad46c-4796-4164-b34d-ae70085e39bb" />
+<img width="517" height="33" alt="image" src="https://github.com/user-attachments/assets/59cad46c-4796-4164-b34d-ae70085e39bb" />  
 
 <img width="708" height="39" alt="image" src="https://github.com/user-attachments/assets/b376860a-19c9-4816-a66b-479407d9dbf1" />  
 
