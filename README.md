@@ -528,3 +528,53 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 
 
 ---
+
+## 🔘 CapSense Technology
+
+In dit hoofdstuk leer je hoe je de capacitieve touch-sensoren (knoppen en slider) van de PSoC 6 gebruikt, inclusief het tunen van sensoren en het herkennen van complexe gestures.
+
+### 1. CapSense Onderzoek (Tuning)
+**Doel:** Vertrouwd raken met de CapSense middleware en de Tuner applicatie.
+* **Taak:** Start een nieuwe applicatie met de template `capsense-buttons-slider`. Gebruik de CAPSENSE™ Tuner om real-time sensor-data (SNR, rawsignal) te monitoren.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/Capsense_ex1_onderzoek/main.c)
+> **Hoe moet je dit doen?**
+> Maak een project aan op basis van de `capsense-buttons-slider` template. Open de **CAPSENSE™ Tuner** vanuit het Quick Panel. Stel de I2C-communicatie in op adres 8, sub-address 2-bytes en snelheid 400 kHz. Klik op 'Connect' en 'Start' om de widgets blauw te zien oplichten bij aanraking.
+>
+> **Wat gebeurt hier?**
+> De applicatie draait een CapSense-scan op de achtergrond. De UART-terminal bevestigt de status. Via de Tuner tool kun je de gevoeligheid van `BTN0`, `BTN1` en de `LinearSlider0` visueel inspecteren en parameters bijstellen voor optimale detectie.
+
+### 2. CapSense Implementatie (Control LED)
+**Doel:** Zelf CapSense functionaliteit toevoegen aan een bestaand project via de HAL.
+* **Taak:** Implementeer handmatig de logica waarbij Button 0 de LED inschakelt, Button 1 de LED uitschakelt en de slider de helderheid van de LED aanpast.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/Capsense_ex2_implementatie/main.c)
+> **Hoe moet je dit doen?**
+> Voeg de `capsense` library toe via de Library Manager. Gebruik de CAPSENSE™ Configurator om de knoppen en de slider toe te wijzen aan de juiste pinnen. Initialiseer de middleware in je code en gebruik de HAL-functies om de status van de widgets uit te lezen.
+>
+> **Wat gebeurt hier?**
+> De code voert een periodieke scan uit. Bij detectie van een 'Touch' op een button wordt de GPIO van de LED aangestuurd. De slider-positie (0-100) wordt direct omgezet naar een PWM duty-cycle om de helderheid te regelen.
+
+### 3. Integratie van Gestures
+**Doel:** Complexe bewegingen zoals swipes (flicks) en clicks herkennen op de slider.
+* **Taak:** Breid het project uit met **Gestures**. Een 'Single Click' moet de LED toggelen, een 'Flick Left' zet de LED aan, en een 'Flick Right' zet de LED uit.
+* **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/Capsense_ex3_gestures/main.c)
+> **Hoe moet je dit doen?**
+> Schakel in de CAPSENSE-configurator onder 'Widget Details' de gestures in (Single Click en One Finger Flick). Gebruik in de `for(;;)`-loop `Cy_CapSense_DecodeWidgetGestures` om de `gestureStatus` op te halen. Verwerk deze status in de `process_touch()` functie met de juiste bitmasks.
+>
+> **Wat gebeurt hier?**
+> Naast de standaard positiebepaling decodeert de PSoC nu ook patronen in de tijd. Door de `direction` uit de `gestureStatus` te maskeren en te shiften, kan er onderscheid gemaakt worden tussen links en rechts vegen op de slider.
+
+---
+
+### 🔍 CapSense Configuratie & Tuner Recap
+
+1. **Tuner Setup:** Zorg dat de kit in KitProg3 mode staat voor I2C bridge communicatie.
+
+<img width="842" height="450" alt="image" src="https://github.com/user-attachments/assets/94137451-aaec-49cb-8376-558eacb1b574" />
+
+2. **Widget View:** In de Tuner kun je de sensoren visueel testen om de drempelwaarden (thresholds) te bepalen.
+
+<img width="845" height="238" alt="image" src="https://github.com/user-attachments/assets/62735b67-0c41-483c-9977-e5dfc50744a8" />
+
+3. **Gesture Status:** Voor Exercise 3 is het essentieel dat de timestamps correct worden geüpdatet via de API:
+   ```c
+   Cy_CapSense_IncrementGestureTimestamp(&cy_capsense_context);
