@@ -389,8 +389,10 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex01_blinkled/main.c)
 > **Hoe moet je dit doen?** > Stel de pin in de Device Configurator in (Strong drive). Gebruik PDL-functies in de code.  
 > **Wat gebeurt hier?** > Basis-aansturing op een lager niveau (register-georiënteerd) met PDL-functies.
-<img width="522" height="37" alt="image" src="https://github.com/user-attachments/assets/70b3480c-df9f-48fe-8576-4c40e2e48fd6" />  
+<img width="522" height="37" alt="image" src="https://github.com/user-attachments/assets/70b3480c-df9f-48fe-8576-4c40e2e48fd6" />
+
 <img width="536" height="36" alt="image" src="https://github.com/user-attachments/assets/402017f3-65ed-42c0-bed7-cc666b8aafa1" />  
+
 
 #### 2. Debug Printing (PDL)
 **Doel:** UART configuratie op register-niveau.
@@ -399,14 +401,22 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex02_blinkled_print/main.c)
 > **Hoe moet je dit doen?** > Configureer een SCB-blok als UART in de configurator. Gebruik `Cy_SCB_UART_PutString`.  
 > **Wat gebeurt hier?** > Low-level UART configuratie voor statusberichten.
-<img width="522" height="37" alt="image" src="https://github.com/user-attachments/assets/70b3480c-df9f-48fe-8576-4c40e2e48fd6" />  
+<img width="522" height="37" alt="image" src="https://github.com/user-attachments/assets/70b3480c-df9f-48fe-8576-4c40e2e48fd6" />
+
 <img width="536" height="36" alt="image" src="https://github.com/user-attachments/assets/402017f3-65ed-42c0-bed7-cc666b8aafa1" />  
+
 <img width="510" height="61" alt="image" src="https://github.com/user-attachments/assets/41c0a51a-96ac-431b-8812-5b1eb566888e" />  
+
 <img width="734" height="651" alt="image" src="https://github.com/user-attachments/assets/412499a6-be20-4f39-8e18-f79cf01bb107" />  
+
 <img width="716" height="635" alt="image" src="https://github.com/user-attachments/assets/5761e014-e653-413a-bb0b-db683e5d7c9b" />  
+
 <img width="442" height="26" alt="image" src="https://github.com/user-attachments/assets/16908632-6349-48a2-8482-117765b9dda6" />  
+
 <img width="655" height="30" alt="image" src="https://github.com/user-attachments/assets/05d9fd1a-808b-4477-aa77-4579508b1a4f" />  
+
 <img width="849" height="60" alt="image" src="https://github.com/user-attachments/assets/8db939cd-7872-47f4-a4f2-e88f5bb3dfd1" />  
+
 
 #### 3. Button Input (PDL)
 **Doel:** Directe pin-uitlezing met PDL.
@@ -415,10 +425,14 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex03_button/main.c)
 > **Hoe moet je dit doen?** > Stel de pull-up in de configurator in. Gebruik `Cy_GPIO_Read` op de juiste poort en pin.  
 > **Wat gebeurt hier?** > Rechtstreekse uitlezing van de knopstatus via PDL register-level functies.
-<img width="518" height="39" alt="image" src="https://github.com/user-attachments/assets/882d74e9-0d09-46a2-ab84-a3458700c511" />  
+<img width="518" height="39" alt="image" src="https://github.com/user-attachments/assets/882d74e9-0d09-46a2-ab84-a3458700c511" />
+
 <img width="532" height="34" alt="image" src="https://github.com/user-attachments/assets/6ea14d8d-d794-4da0-9ecf-df3e03d55b8a" />  
+
 <img width="508" height="27" alt="image" src="https://github.com/user-attachments/assets/1872116e-4cbf-4ed5-8a48-2b3eca8b9319" />  
+
 <img width="691" height="33" alt="image" src="https://github.com/user-attachments/assets/5c0c2295-9ceb-4097-b1dc-41c69d0cb5c6" />  
+
 
 #### 4. GPIO Interrupts (PDL)
 **Doel:** Handmatige interrupt configuratie via SysInt.
@@ -427,11 +441,16 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex04_interrupt/main.c)
 > **Hoe moet je dit doen?** > Stel de ISR-vector in met `Cy_SysInt_Init`. Schakel de interrupt in op de NVIC en wis de vlag handmatig.  
 > **Wat gebeurt hier?** > Volledig handmatige interrupt-afhandeling op register-niveau, essentieel voor low-level optimalisatie.
-<img width="518" height="39" alt="image" src="https://github.com/user-attachments/assets/882d74e9-0d09-46a2-ab84-a3458700c511" />  
+<img width="518" height="39" alt="image" src="https://github.com/user-attachments/assets/882d74e9-0d09-46a2-ab84-a3458700c511" />
+
 <img width="532" height="34" alt="image" src="https://github.com/user-attachments/assets/6ea14d8d-d794-4da0-9ecf-df3e03d55b8a" />  
+
 <img width="715" height="39" alt="image" src="https://github.com/user-attachments/assets/e417d926-28e3-4e4c-89ee-4f4409d78d1e" />  
+
 <img width="508" height="27" alt="image" src="https://github.com/user-attachments/assets/1872116e-4cbf-4ed5-8a48-2b3eca8b9319" />  
+
 <img width="691" height="33" alt="image" src="https://github.com/user-attachments/assets/5c0c2295-9ceb-4097-b1dc-41c69d0cb5c6" />  
+
 
 #### 5. PWM: LED Brightness (PDL)
 **Doel:** Het TCPWM-blok direct aansturen.
@@ -440,14 +459,22 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex05_pwm/main.c)
 > **Hoe moet je dit doen?** > Koppel een TCPWM blok aan een pin in de configurator. Gebruik `Cy_TCPWM_PWM_SetCompare0` om registers direct te schrijven.  
 > **Wat gebeurt hier?** > Helderheidsregeling door directe manipulatie van de PWM compare-registers via PDL.
-<img width="517" height="33" alt="image" src="https://github.com/user-attachments/assets/59cad46c-4796-4164-b34d-ae70085e39bb" />  
+<img width="517" height="33" alt="image" src="https://github.com/user-attachments/assets/59cad46c-4796-4164-b34d-ae70085e39bb" />
+
 <img width="708" height="39" alt="image" src="https://github.com/user-attachments/assets/b376860a-19c9-4816-a66b-479407d9dbf1" />  
+
 <img width="738" height="32" alt="image" src="https://github.com/user-attachments/assets/eb8dff99-968a-439b-b267-c98b6bbbcba2" />  
+
 <img width="673" height="171" alt="image" src="https://github.com/user-attachments/assets/0b8981cf-4bfc-4aa3-a589-60bf60932d34" />  
+
 <img width="512" height="26" alt="image" src="https://github.com/user-attachments/assets/52de8081-5e81-4367-ac72-b7c8f1c97874" />  
+
 <img width="349" height="401" alt="image" src="https://github.com/user-attachments/assets/d2c86613-6abe-4ac3-bc56-01f36e14900d" />  
+
 <img width="873" height="724" alt="image" src="https://github.com/user-attachments/assets/8c228ee2-dbc7-42db-8ad3-9aed1aa9b14f" />  
+
 <img width="319" height="28" alt="image" src="https://github.com/user-attachments/assets/3db69478-66dd-425d-8cfc-5024231b4420" />  
+
 
 #### 6. UART Receive (PDL)
 **Doel:** Ontvangen van seriële data via PDL-functies.
@@ -456,14 +483,22 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex06_uart_receive/main.c)
 > **Hoe moet je dit doen?** > Gebruik `Cy_SCB_UART_Get` in een loop om de RX-FIFO van de UART uit te lezen.  
 > **Wat gebeurt hier?** > Karakter-verwerking via de PDL-laag om acties op de LED uit te voeren.
-<img width="517" height="34" alt="image" src="https://github.com/user-attachments/assets/edda9ebf-c535-4840-911f-56c386bc402f" />  
+<img width="517" height="34" alt="image" src="https://github.com/user-attachments/assets/edda9ebf-c535-4840-911f-56c386bc402f" />
+
 <img width="629" height="43" alt="image" src="https://github.com/user-attachments/assets/52f214d7-db21-4d15-8995-9c7740e8aa79" />  
+
 <img width="509" height="28" alt="image" src="https://github.com/user-attachments/assets/b50af2d7-c70c-4dd8-9c94-dd9e07da9ad2" />  
-<img width="713" height="562" alt="image" src="https://github.com/user-attachments/assets/6f7aff27-95ee-4943-9598-c08d46391088" />  
+
+<img width="713" height="562" alt="image" src="https://github.com/user-attachments/assets/6f7aff27-95ee-4943-9598-c08d46391088" /> 
+
 <img width="480" height="29" alt="image" src="https://github.com/user-attachments/assets/7a83670f-6397-4ce2-b1db-eff1094e9459" />  
+
 <img width="729" height="570" alt="image" src="https://github.com/user-attachments/assets/de97cd55-9faa-4d4c-b6ef-6e7ef7aa39d7" />  
+
 <img width="690" height="30" alt="image" src="https://github.com/user-attachments/assets/adebbd5c-55b6-41f0-a867-ae216a6a371f" />  
-<img width="857" height="755" alt="image" src="https://github.com/user-attachments/assets/b58c9677-b4b6-45c7-b85c-9cc0edb0b836" />  
+
+<img width="857" height="755" alt="image" src="https://github.com/user-attachments/assets/b58c9677-b4b6-45c7-b85c-9cc0edb0b836" />
+
 
 #### 7. UART Send (PDL)
 **Doel:** Het verzenden van individuele karakters via PDL.
@@ -472,15 +507,25 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 * **🔗 Code:** [main.c](ModToolBox_AlleOefeningen/PDL_ex07_uart_send/main.c)
 > **Hoe moet je dit doen?** > Gebruik `Cy_SCB_UART_Put` om een byte direct naar de TX-FIFO van de UART te sturen.  
 > **Wat gebeurt hier?** > Efficiënte verzending van teller-data zonder gebruik van printf, via low-level PDL functies.
-<img width="506" height="26" alt="image" src="https://github.com/user-attachments/assets/03ac3216-e8e5-40cd-9a5e-36f6797bfba2" />  
-<img width="719" height="339" alt="image" src="https://github.com/user-attachments/assets/aeca84da-b7cf-450e-9f75-c488b26bff51" />  
+<img width="506" height="26" alt="image" src="https://github.com/user-attachments/assets/03ac3216-e8e5-40cd-9a5e-36f6797bfba2" />
+
+<img width="719" height="339" alt="image" src="https://github.com/user-attachments/assets/aeca84da-b7cf-450e-9f75-c488b26bff51" />
+
 <img width="508" height="35" alt="image" src="https://github.com/user-attachments/assets/00577b9c-088e-4a4c-b6ad-d1004f33e247" />  
+
 <img width="742" height="224" alt="image" src="https://github.com/user-attachments/assets/995717df-5c09-47d7-99f8-df04ee73d1f6" />  
+
 <img width="445" height="29" alt="image" src="https://github.com/user-attachments/assets/52fdfa76-fefe-4afa-9d92-eb28653480e6" />  
+
 <img width="698" height="572" alt="image" src="https://github.com/user-attachments/assets/e2b37adc-c95a-4192-ae5e-530b94404f08" />  
+
 <img width="467" height="26" alt="image" src="https://github.com/user-attachments/assets/07987a39-ea11-4a77-baa8-16a5e3003a16" />  
+
 <img width="659" height="565" alt="image" src="https://github.com/user-attachments/assets/6506919d-7773-453f-b1be-51ae24d5111b" />  
+
 <img width="734" height="29" alt="image" src="https://github.com/user-attachments/assets/a88fef36-d2f9-4939-b4d0-59e46cd3f7e4" />  
+
 <img width="834" height="721" alt="image" src="https://github.com/user-attachments/assets/0ad2a69a-acca-47b7-acfa-81f1b89c3827" />  
+
 
 ---
