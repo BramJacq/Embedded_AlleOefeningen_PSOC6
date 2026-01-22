@@ -467,7 +467,8 @@ In dit hoofdstuk leer je de randapparatuur van de PSoC™ 6 aansturen via twee v
 
 <img width="673" height="171" alt="image" src="https://github.com/user-attachments/assets/0b8981cf-4bfc-4aa3-a589-60bf60932d34" />  
 
-<img width="512" height="26" alt="image" src="https://github.com/user-attachments/assets/52de8081-5e81-4367-ac72-b7c8f1c97874" />  
+<img width="512" height="26" alt="image" src="https://github.com/user-attachments/assets/52de8081-5e81-4367-ac72-b7c8f1c97874" />
+
 
 <img width="349" height="401" alt="image" src="https://github.com/user-attachments/assets/d2c86613-6abe-4ac3-bc56-01f36e14900d" />  
 
